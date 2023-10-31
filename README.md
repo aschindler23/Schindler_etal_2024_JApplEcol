@@ -26,6 +26,9 @@ Mitch D. Weegman
 Department of Biology, University of Saskatchewan, Saskatoon, SK, Canada
 ___
 ### Files
+- `flock_trends_mod.R`: code for estimating individual flock trends in abundance  
+- `LCA_K2.R`: code for the latent class analysis with 2 latent groups  
+- `LCA_K3.R`: code for the latent class analysis with 3 latent groups  
 
 ### Data file column names
 
