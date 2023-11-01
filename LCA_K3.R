@@ -43,7 +43,7 @@ LCA_model <- nimbleCode({
     w_alpha[k] <- 1
     
     # LCA covariate means
-    class_mu_lambda[k] ~ dnorm(0, sd = 10)
+    class_mu_trend[k] ~ dnorm(0, sd = 10)
     class_mu_lat[k] ~ dnorm(0, sd = 10)
     
     # LCA covariate precision
@@ -55,7 +55,7 @@ LCA_model <- nimbleCode({
     # latent class membership of each flock
     Z[f] ~ dcat(w[1:K]) 
     for(s in 1:nsamp){ # loop over samples
-      trend[s, f] ~ dnorm(class_mu_lambda[Z[f]], sd = class_sig_lambda[Z[f]]) 
+      trend[s, f] ~ dnorm(class_mu_trend[Z[f]], sd = class_sig_lambda[Z[f]]) 
     }
     latitude[f] ~ dnorm(class_mu_lat[Z[f]], sd = class_sig_lat[Z[f]])
   } # f
@@ -72,7 +72,7 @@ nimble_data <- list(trend = trend, latitude = flock_coord$lat_scale)
 # initial values
 Z_init <- sample(1:K, nflocks, replace = T)
 inits_function <- function(){
-  list(class_mu_lambda = rnorm(K, 0, 1),
+  list(class_mu_trend = rnorm(K, 0, 1),
        class_sig_lambda = runif(K, 0.1, 10),
        class_mu_lat = rnorm(K, 0, 1),
        class_sig_lat = runif(K, 0.1, 10),
