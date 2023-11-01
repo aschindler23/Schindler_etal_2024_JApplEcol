@@ -76,7 +76,7 @@ trend_model <- nimbleCode({
     } # t
   } # f
   
-    # observation model for count data
+  # observation model for count data
   for (n in 1:ncount){
     y[n] ~ dpois(N[flock[n], year[n]]) 
   }
