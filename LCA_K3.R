@@ -23,8 +23,12 @@ K <- 3
 
 # load trend model results
 load("flock_trends_mod.RData")
+
+# format samples into matrix and thin
 samples_mat <- as.matrix(rbind(out[[1]], out[[2]], out[[3]]))
 samples_mat <- samples_mat[seq(1, 12000, by = 2),]
+
+# extract trend samples
 trend <- samples_mat[, str_detect(colnames(samples_mat), "beta_trend")]
 
 ### LCA model
@@ -34,7 +38,7 @@ LCA_model <- nimbleCode({
   # Dirichlet prior for mixing proportions
   w[1:K] ~ ddirich(w_alpha[1:K])
   
-  for(k in 1:K){ # loop over classes (K = 3 classes)
+  for(k in 1:K){ # loop over classes
     # hyperprior for (equal) mixing proportions
     w_alpha[k] <- 1
     
@@ -50,7 +54,7 @@ LCA_model <- nimbleCode({
   for(f in 1:nflocks){ # loop over flocks
     # latent class membership of each flock
     Z[f] ~ dcat(w[1:K]) 
-    for(s in 1:nsim){
+    for(s in 1:nsamp){ # loop over samples
       trend[s, f] ~ dnorm(class_mu_lambda[Z[f]], sd = class_sig_lambda[Z[f]]) 
     }
     latitude[f] ~ dnorm(class_mu_lat[Z[f]], sd = class_sig_lat[Z[f]])
@@ -59,7 +63,7 @@ LCA_model <- nimbleCode({
 
 # set constants
 nimble_constants <- list(nflocks = nflocks,
-                         nsim = nrow(trend),
+                         nsamp = nrow(trend),
                          K = K)
 
 # set data
@@ -145,6 +149,7 @@ rhat <- gelman.diag(mcmc_list, multivariate = F)
 rhat <- unlist(rhat$psrf)
 rhat[which(rhat[,1] > 1.1), ]
 
+# summary statistics
 sum_stats <- MCMCsummary(mcmc_list)
 write.csv(sum_stats, "LCA_K3_summary.csv")
 
