@@ -9,6 +9,7 @@ library(MCMCvis)
 ### load flock count data
 count <- read.csv("flock_counts.csv")
 
+# initial values for population size
 N_init <- count %>% 
   select(year2, flock2, count) %>% 
   pivot_wider(names_from = year2, values_from = count, 
@@ -16,6 +17,7 @@ N_init <- count %>%
   mutate_all(~replace_na(.,0)) %>% 
   select(-flock2)
 
+# initial values for mean population size
 alpha_init <- count %>% 
   group_by(flock2) %>% 
   summarise(mean_count = mean(count)) %>% 
@@ -47,7 +49,7 @@ year_cov <- c(1:nyears) - nyears/2 - .5
 # specify model in BUGS language 
 trend_model <- nimbleCode({
   #===========================
-  # priors and linear models
+  # priors
   #===========================
   
   for(f in 1:nflocks){ # loop over flocks
@@ -169,6 +171,7 @@ rhat <- gelman.diag(mcmc_list, multivariate = F)
 rhat <- unlist(rhat$psrf)
 rhat[which(rhat[,1] > 1.1), ]
 
+# summary statistics
 sum_stats <- MCMCsummary(mcmc_list)
 write.csv(sum_stats, "flock_trends_mod_summary.csv")
 
