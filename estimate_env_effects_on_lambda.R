@@ -89,9 +89,9 @@ Z <- Z %>%
   select(flock, Z) %>% 
   arrange(flock)
 
-### regression model
+### estimate effects of environmental variables on annual lambda
 # specify model in BUGS language 
-reg_model <- nimbleCode({
+env_model <- nimbleCode({
   
   #===========================
   # prior specification
@@ -244,7 +244,7 @@ end_time <- Sys.time()
 stopCluster(cl)
 
 # save output
-file_heading <- paste0("regression_K", K, "_")
+file_heading <- paste0("env_K", K, "_")
 save(out, file = paste0(file_heading, "_results.RData"))
 
 # convert to MCMC list
