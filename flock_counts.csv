@@ -1,1887 +1,1887 @@
-"flock","flock2","year","year2","flock_name","count"
-1,1,1984,1,"Foyle & Swilly",254
-1,1,1985,2,"Foyle & Swilly",245
-1,1,1986,3,"Foyle & Swilly",239
-1,1,1987,4,"Foyle & Swilly",240
-1,1,1988,5,"Foyle & Swilly",267
-1,1,1989,6,"Foyle & Swilly",318
-1,1,1990,7,"Foyle & Swilly",369
-1,1,1991,8,"Foyle & Swilly",418
-1,1,1992,9,"Foyle & Swilly",371
-1,1,1993,10,"Foyle & Swilly",575
-1,1,1994,11,"Foyle & Swilly",613
-1,1,1995,12,"Foyle & Swilly",664
-1,1,1996,13,"Foyle & Swilly",894
-1,1,1997,14,"Foyle & Swilly",1015
-1,1,1998,15,"Foyle & Swilly",914
-1,1,1999,16,"Foyle & Swilly",1128
-1,1,2000,17,"Foyle & Swilly",1814
-1,1,2001,18,"Foyle & Swilly",1192
-1,1,2002,19,"Foyle & Swilly",1383
-1,1,2003,20,"Foyle & Swilly",994
-1,1,2004,21,"Foyle & Swilly",626
-1,1,2005,22,"Foyle & Swilly",903
-1,1,2006,23,"Foyle & Swilly",1136
-1,1,2007,24,"Foyle & Swilly",1107
-1,1,2008,25,"Foyle & Swilly",1195
-1,1,2009,26,"Foyle & Swilly",1038
-1,1,2010,27,"Foyle & Swilly",1248
-1,1,2011,28,"Foyle & Swilly",1288
-1,1,2012,29,"Foyle & Swilly",1171
-1,1,2013,30,"Foyle & Swilly",1220
-1,1,2014,31,"Foyle & Swilly",1050
-1,1,2015,32,"Foyle & Swilly",1026
-1,1,2016,33,"Foyle & Swilly",720
-1,1,2017,34,"Foyle & Swilly",607
-1,1,2018,35,"Foyle & Swilly",604
-2,2,1984,1,"Dunfanaghy",120
-2,2,1985,2,"Dunfanaghy",175
-2,2,1986,3,"Dunfanaghy",154
-2,2,1987,4,"Dunfanaghy",196
-2,2,1988,5,"Dunfanaghy",227
-2,2,1989,6,"Dunfanaghy",249
-2,2,1990,7,"Dunfanaghy",228
-2,2,1991,8,"Dunfanaghy",219
-2,2,1992,9,"Dunfanaghy",193
-2,2,1993,10,"Dunfanaghy",131
-2,2,1994,11,"Dunfanaghy",147
-2,2,1995,12,"Dunfanaghy",289
-2,2,1996,13,"Dunfanaghy",211
-2,2,1997,14,"Dunfanaghy",334
-2,2,1998,15,"Dunfanaghy",219
-2,2,1999,16,"Dunfanaghy",145
-2,2,2000,17,"Dunfanaghy",269
-2,2,2001,18,"Dunfanaghy",184
-2,2,2002,19,"Dunfanaghy",306
-2,2,2003,20,"Dunfanaghy",76
-2,2,2004,21,"Dunfanaghy",120
-2,2,2005,22,"Dunfanaghy",148
-2,2,2006,23,"Dunfanaghy",160
-2,2,2007,24,"Dunfanaghy",205
-2,2,2008,25,"Dunfanaghy",60
-2,2,2009,26,"Dunfanaghy",133
-2,2,2010,27,"Dunfanaghy",46
-2,2,2011,28,"Dunfanaghy",169
-2,2,2012,29,"Dunfanaghy",135
-2,2,2013,30,"Dunfanaghy",91
-2,2,2014,31,"Dunfanaghy",101
-2,2,2015,32,"Dunfanaghy",44
-2,2,2016,33,"Dunfanaghy",44
-2,2,2017,34,"Dunfanaghy",150
-2,2,2018,35,"Dunfanaghy",129
-3,3,1984,1,"Sheskinmore",209
-3,3,1985,2,"Sheskinmore",396
-3,3,1986,3,"Sheskinmore",233
-3,3,1987,4,"Sheskinmore",281
-3,3,1988,5,"Sheskinmore",146
-3,3,1989,6,"Sheskinmore",165
-3,3,1990,7,"Sheskinmore",134
-3,3,1991,8,"Sheskinmore",93
-3,3,1992,9,"Sheskinmore",134
-3,3,1993,10,"Sheskinmore",110
-3,3,1994,11,"Sheskinmore",113
-3,3,1995,12,"Sheskinmore",104
-3,3,1996,13,"Sheskinmore",87
-3,3,1997,14,"Sheskinmore",110
-3,3,1998,15,"Sheskinmore",117
-3,3,1999,16,"Sheskinmore",82
-3,3,2000,17,"Sheskinmore",72
-3,3,2001,18,"Sheskinmore",44
-3,3,2002,19,"Sheskinmore",44
-3,3,2003,20,"Sheskinmore",40
-3,3,2004,21,"Sheskinmore",14
-3,3,2005,22,"Sheskinmore",48
-3,3,2006,23,"Sheskinmore",50
-3,3,2007,24,"Sheskinmore",44
-3,3,2008,25,"Sheskinmore",39
-3,3,2009,26,"Sheskinmore",35
-3,3,2010,27,"Sheskinmore",40
-3,3,2011,28,"Sheskinmore",41
-3,3,2012,29,"Sheskinmore",46
-3,3,2013,30,"Sheskinmore",42
-3,3,2014,31,"Sheskinmore",23
-3,3,2015,32,"Sheskinmore",31
-3,3,2016,33,"Sheskinmore",29
-3,3,2017,34,"Sheskinmore",35
-3,3,2018,35,"Sheskinmore",18
-4,4,1984,1,"Pettigo",112
-4,4,1985,2,"Pettigo",156
-4,4,1986,3,"Pettigo",164
-4,4,1987,4,"Pettigo",167
-4,4,1988,5,"Pettigo",224
-4,4,1989,6,"Pettigo",182
-4,4,1990,7,"Pettigo",127
-4,4,1991,8,"Pettigo",128
-4,4,1992,9,"Pettigo",131
-4,4,1993,10,"Pettigo",96
-4,4,1994,11,"Pettigo",120
-4,4,1995,12,"Pettigo",152
-4,4,1996,13,"Pettigo",136
-4,4,1997,14,"Pettigo",132
-4,4,1998,15,"Pettigo",144
-4,4,1999,16,"Pettigo",132
-4,4,2000,17,"Pettigo",139
-4,4,2001,18,"Pettigo",111
-4,4,2002,19,"Pettigo",103
-4,4,2003,20,"Pettigo",126
-4,4,2004,21,"Pettigo",113
-4,4,2005,22,"Pettigo",95
-4,4,2006,23,"Pettigo",129
-4,4,2007,24,"Pettigo",82
-4,4,2008,25,"Pettigo",66
-4,4,2009,26,"Pettigo",66
-4,4,2010,27,"Pettigo",78
-4,4,2011,28,"Pettigo",67
-4,4,2012,29,"Pettigo",55
-4,4,2013,30,"Pettigo",63
-4,4,2014,31,"Pettigo",103
-4,4,2015,32,"Pettigo",120
-4,4,2016,33,"Pettigo",82
-4,4,2017,34,"Pettigo",45
-4,4,2018,35,"Pettigo",47
-5,5,1984,1,"Bunduff",9
-5,5,1985,2,"Bunduff",21
-5,5,1986,3,"Bunduff",25
-5,5,1987,4,"Bunduff",8
-5,5,1988,5,"Bunduff",16
-5,5,1989,6,"Bunduff",5
-5,5,1990,7,"Bunduff",33
-5,5,1991,8,"Bunduff",2
-5,5,1992,9,"Bunduff",0
-5,5,1993,10,"Bunduff",6
-5,5,1994,11,"Bunduff",40
-5,5,1995,12,"Bunduff",6
-5,5,1996,13,"Bunduff",0
-6,6,1984,1,"Lough MacNean",56
-6,6,1985,2,"Lough MacNean",46
-6,6,1986,3,"Lough MacNean",58
-6,6,1987,4,"Lough MacNean",62
-6,6,1988,5,"Lough MacNean",66
-6,6,1989,6,"Lough MacNean",76
-6,6,1990,7,"Lough MacNean",90
-6,6,1991,8,"Lough MacNean",82
-6,6,1992,9,"Lough MacNean",80
-6,6,1993,10,"Lough MacNean",61
-6,6,1994,11,"Lough MacNean",60
-6,6,1995,12,"Lough MacNean",64
-6,6,1996,13,"Lough MacNean",69
-6,6,1997,14,"Lough MacNean",73
-6,6,1998,15,"Lough MacNean",84
-6,6,1999,16,"Lough MacNean",95
-6,6,2000,17,"Lough MacNean",93
-6,6,2001,18,"Lough MacNean",91
-6,6,2002,19,"Lough MacNean",89
-6,6,2003,20,"Lough MacNean",86
-6,6,2004,21,"Lough MacNean",84
-6,6,2005,22,"Lough MacNean",82
-6,6,2006,23,"Lough MacNean",76
-6,6,2007,24,"Lough MacNean",69
-6,6,2008,25,"Lough MacNean",62
-6,6,2009,26,"Lough MacNean",75
-6,6,2010,27,"Lough MacNean",70
-6,6,2011,28,"Lough MacNean",76
-6,6,2012,29,"Lough MacNean",67
-6,6,2013,30,"Lough MacNean",64
-6,6,2014,31,"Lough MacNean",64
-6,6,2015,32,"Lough MacNean",64
-6,6,2016,33,"Lough MacNean",84
-6,6,2017,34,"Lough MacNean",87
-6,6,2018,35,"Lough MacNean",83
-7,7,1984,1,"Oughter",49
-7,7,1985,2,"Oughter",57
-7,7,1986,3,"Oughter",72
-7,7,1987,4,"Oughter",68
-7,7,1988,5,"Oughter",52
-7,7,1989,6,"Oughter",59
-7,7,1990,7,"Oughter",63
-7,7,1991,8,"Oughter",67
-7,7,1992,9,"Oughter",79
-7,7,1993,10,"Oughter",87
-7,7,1994,11,"Oughter",59
-7,7,1995,12,"Oughter",85
-7,7,1996,13,"Oughter",84
-7,7,1997,14,"Oughter",71
-7,7,1998,15,"Oughter",75
-7,7,1999,16,"Oughter",70
-7,7,2000,17,"Oughter",45
-7,7,2001,18,"Oughter",39
-7,7,2002,19,"Oughter",37
-7,7,2003,20,"Oughter",35
-7,7,2004,21,"Oughter",22
-7,7,2005,22,"Oughter",27
-7,7,2006,23,"Oughter",31
-7,7,2007,24,"Oughter",23
-7,7,2008,25,"Oughter",14
-7,7,2009,26,"Oughter",19
-7,7,2010,27,"Oughter",11
-7,7,2011,28,"Oughter",8
-7,7,2012,29,"Oughter",6
-7,7,2013,30,"Oughter",0
-7,7,2014,31,"Oughter",8
-7,7,2015,32,"Oughter",0
-8,8,1984,1,"Caledon",82
-8,8,1985,2,"Caledon",80
-8,8,1986,3,"Caledon",98
-8,8,1987,4,"Caledon",87
-8,8,1988,5,"Caledon",76
-8,8,1989,6,"Caledon",72
-8,8,1990,7,"Caledon",75
-8,8,1991,8,"Caledon",80
-8,8,1992,9,"Caledon",64
-8,8,1993,10,"Caledon",92
-8,8,1994,11,"Caledon",81
-8,8,1995,12,"Caledon",97
-8,8,1996,13,"Caledon",80
-8,8,1997,14,"Caledon",92
-8,8,1998,15,"Caledon",104
-8,8,1999,16,"Caledon",69
-8,8,2000,17,"Caledon",80
-8,8,2001,18,"Caledon",74
-8,8,2002,19,"Caledon",48
-8,8,2003,20,"Caledon",30
-8,8,2004,21,"Caledon",32
-8,8,2005,22,"Caledon",14
-8,8,2006,23,"Caledon",9
-8,8,2007,24,"Caledon",5
-8,8,2008,25,"Caledon",3
-8,8,2009,26,"Caledon",5
-8,8,2010,27,"Caledon",2
-8,8,2011,28,"Caledon",1
-8,8,2012,29,"Caledon",0
-9,9,1984,1,"Lough Conn",109
-9,9,1985,2,"Lough Conn",169
-9,9,1986,3,"Lough Conn",138
-9,9,1987,4,"Lough Conn",168
-9,9,1988,5,"Lough Conn",175
-9,9,1989,6,"Lough Conn",182
-9,9,1990,7,"Lough Conn",168
-9,9,1991,8,"Lough Conn",138
-9,9,1992,9,"Lough Conn",146
-9,9,1993,10,"Lough Conn",100
-9,9,1994,11,"Lough Conn",131
-9,9,1995,12,"Lough Conn",91
-9,9,1996,13,"Lough Conn",127
-9,9,1997,14,"Lough Conn",138
-9,9,1998,15,"Lough Conn",129
-9,9,1999,16,"Lough Conn",82
-9,9,2000,17,"Lough Conn",146
-9,9,2001,18,"Lough Conn",86
-9,9,2002,19,"Lough Conn",82
-9,9,2003,20,"Lough Conn",71
-9,9,2004,21,"Lough Conn",65
-9,9,2005,22,"Lough Conn",66
-9,9,2006,23,"Lough Conn",69
-9,9,2007,24,"Lough Conn",57
-9,9,2008,25,"Lough Conn",62
-9,9,2009,26,"Lough Conn",58
-9,9,2010,27,"Lough Conn",53
-9,9,2011,28,"Lough Conn",44
-9,9,2012,29,"Lough Conn",54
-9,9,2013,30,"Lough Conn",30
-9,9,2014,31,"Lough Conn",54
-9,9,2015,32,"Lough Conn",30
-9,9,2016,33,"Lough Conn",31
-9,9,2017,34,"Lough Conn",20
-9,9,2018,35,"Lough Conn",21
-10,10,1984,1,"Bog of Erris",90
-10,10,1985,2,"Bog of Erris",77
-10,10,1986,3,"Bog of Erris",80
-10,10,1987,4,"Bog of Erris",140
-10,10,1988,5,"Bog of Erris",129
-10,10,1989,6,"Bog of Erris",130
-10,10,1990,7,"Bog of Erris",157
-10,10,1991,8,"Bog of Erris",150
-10,10,1992,9,"Bog of Erris",125
-10,10,1993,10,"Bog of Erris",148
-10,10,1994,11,"Bog of Erris",155
-10,10,1995,12,"Bog of Erris",152
-10,10,1996,13,"Bog of Erris",166
-10,10,1997,14,"Bog of Erris",161
-10,10,1998,15,"Bog of Erris",156
-10,10,1999,16,"Bog of Erris",146
-10,10,2000,17,"Bog of Erris",103
-10,10,2001,18,"Bog of Erris",113
-10,10,2002,19,"Bog of Erris",92
-10,10,2003,20,"Bog of Erris",81
-10,10,2004,21,"Bog of Erris",28
-10,10,2005,22,"Bog of Erris",24
-10,10,2006,23,"Bog of Erris",30
-10,10,2007,24,"Bog of Erris",26
-10,10,2008,25,"Bog of Erris",79
-10,10,2009,26,"Bog of Erris",40
-10,10,2010,27,"Bog of Erris",66
-10,10,2011,28,"Bog of Erris",38
-10,10,2012,29,"Bog of Erris",30
-10,10,2013,30,"Bog of Erris",55
-10,10,2014,31,"Bog of Erris",37
-10,10,2015,32,"Bog of Erris",35
-10,10,2016,33,"Bog of Erris",60
-10,10,2017,34,"Bog of Erris",17
-10,10,2018,35,"Bog of Erris",68
-11,11,1984,1,"Errif & Derrycraff",138
-11,11,1985,2,"Errif & Derrycraff",176
-11,11,1986,3,"Errif & Derrycraff",275
-11,11,1987,4,"Errif & Derrycraff",216
-11,11,1988,5,"Errif & Derrycraff",145
-11,11,1989,6,"Errif & Derrycraff",82
-11,11,1990,7,"Errif & Derrycraff",78
-11,11,1991,8,"Errif & Derrycraff",133
-11,11,1992,9,"Errif & Derrycraff",176
-11,11,1993,10,"Errif & Derrycraff",135
-11,11,1994,11,"Errif & Derrycraff",153
-11,11,1995,12,"Errif & Derrycraff",171
-11,11,1996,13,"Errif & Derrycraff",161
-11,11,1997,14,"Errif & Derrycraff",108
-11,11,1998,15,"Errif & Derrycraff",124
-11,11,1999,16,"Errif & Derrycraff",108
-11,11,2000,17,"Errif & Derrycraff",91
-11,11,2001,18,"Errif & Derrycraff",75
-11,11,2002,19,"Errif & Derrycraff",94
-11,11,2003,20,"Errif & Derrycraff",64
-11,11,2004,21,"Errif & Derrycraff",51
-11,11,2005,22,"Errif & Derrycraff",38
-11,11,2006,23,"Errif & Derrycraff",36
-11,11,2007,24,"Errif & Derrycraff",33
-11,11,2008,25,"Errif & Derrycraff",25
-11,11,2009,26,"Errif & Derrycraff",39
-11,11,2010,27,"Errif & Derrycraff",19
-11,11,2011,28,"Errif & Derrycraff",34
-11,11,2012,29,"Errif & Derrycraff",48
-11,11,2013,30,"Errif & Derrycraff",43
-11,11,2014,31,"Errif & Derrycraff",51
-11,11,2015,32,"Errif & Derrycraff",14
-11,11,2016,33,"Errif & Derrycraff",52
-11,11,2017,34,"Errif & Derrycraff",52
-11,11,2018,35,"Errif & Derrycraff",61
-12,12,1984,1,"Connamara",96
-12,12,1985,2,"Connamara",67
-12,12,1986,3,"Connamara",77
-12,12,1987,4,"Connamara",71
-12,12,1988,5,"Connamara",134
-12,12,1989,6,"Connamara",51
-12,12,1990,7,"Connamara",47
-12,12,1991,8,"Connamara",54
-12,12,1992,9,"Connamara",60
-12,12,1993,10,"Connamara",105
-12,12,1994,11,"Connamara",100
-12,12,1995,12,"Connamara",70
-12,12,1996,13,"Connamara",40
-12,12,1997,14,"Connamara",36
-12,12,1998,15,"Connamara",33
-12,12,1999,16,"Connamara",29
-12,12,2000,17,"Connamara",45
-12,12,2001,18,"Connamara",60
-12,12,2002,19,"Connamara",53
-12,12,2003,20,"Connamara",45
-12,12,2004,21,"Connamara",38
-12,12,2005,22,"Connamara",30
-12,12,2006,23,"Connamara",27
-12,12,2007,24,"Connamara",24
-12,12,2008,25,"Connamara",31
-12,12,2009,26,"Connamara",28
-12,12,2010,27,"Connamara",25
-12,12,2011,28,"Connamara",6
-12,12,2012,29,"Connamara",6
-12,12,2013,30,"Connamara",7
-12,12,2014,31,"Connamara",7
-12,12,2015,32,"Connamara",7
-12,12,2016,33,"Connamara",7
-12,12,2017,34,"Connamara",13
-12,12,2018,35,"Connamara",18
-13,13,1984,1,"Rostaff & Killower",100
-13,13,1985,2,"Rostaff & Killower",121
-13,13,1986,3,"Rostaff & Killower",131
-13,13,1987,4,"Rostaff & Killower",128
-13,13,1988,5,"Rostaff & Killower",143
-13,13,1989,6,"Rostaff & Killower",209
-13,13,1990,7,"Rostaff & Killower",192
-13,13,1991,8,"Rostaff & Killower",154
-13,13,1992,9,"Rostaff & Killower",139
-13,13,1993,10,"Rostaff & Killower",192
-13,13,1994,11,"Rostaff & Killower",180
-13,13,1995,12,"Rostaff & Killower",200
-13,13,1996,13,"Rostaff & Killower",213
-13,13,1997,14,"Rostaff & Killower",190
-13,13,1998,15,"Rostaff & Killower",175
-13,13,1999,16,"Rostaff & Killower",159
-13,13,2000,17,"Rostaff & Killower",143
-13,13,2001,18,"Rostaff & Killower",111
-13,13,2002,19,"Rostaff & Killower",115
-13,13,2003,20,"Rostaff & Killower",118
-13,13,2004,21,"Rostaff & Killower",104
-13,13,2005,22,"Rostaff & Killower",118
-13,13,2006,23,"Rostaff & Killower",92
-13,13,2007,24,"Rostaff & Killower",88
-13,13,2008,25,"Rostaff & Killower",59
-13,13,2009,26,"Rostaff & Killower",54
-13,13,2010,27,"Rostaff & Killower",79
-13,13,2011,28,"Rostaff & Killower",71
-13,13,2012,29,"Rostaff & Killower",87
-13,13,2013,30,"Rostaff & Killower",97
-13,13,2014,31,"Rostaff & Killower",87
-13,13,2015,32,"Rostaff & Killower",86
-13,13,2016,33,"Rostaff & Killower",58
-13,13,2017,34,"Rostaff & Killower",92
-13,13,2018,35,"Rostaff & Killower",83
-14,14,1984,1,"Lower Lough Corrib",74
-14,14,1985,2,"Lower Lough Corrib",86
-14,14,1986,3,"Lower Lough Corrib",82
-14,14,1987,4,"Lower Lough Corrib",86
-14,14,1988,5,"Lower Lough Corrib",107
-14,14,1989,6,"Lower Lough Corrib",79
-14,14,1990,7,"Lower Lough Corrib",96
-14,14,1991,8,"Lower Lough Corrib",107
-14,14,1992,9,"Lower Lough Corrib",92
-14,14,1993,10,"Lower Lough Corrib",97
-14,14,1994,11,"Lower Lough Corrib",89
-14,14,1995,12,"Lower Lough Corrib",98
-14,14,1996,13,"Lower Lough Corrib",143
-14,14,1997,14,"Lower Lough Corrib",160
-14,14,1998,15,"Lower Lough Corrib",123
-14,14,1999,16,"Lower Lough Corrib",126
-14,14,2000,17,"Lower Lough Corrib",140
-14,14,2001,18,"Lower Lough Corrib",160
-14,14,2002,19,"Lower Lough Corrib",119
-14,14,2003,20,"Lower Lough Corrib",77
-14,14,2004,21,"Lower Lough Corrib",70
-14,14,2005,22,"Lower Lough Corrib",60
-14,14,2006,23,"Lower Lough Corrib",60
-14,14,2007,24,"Lower Lough Corrib",60
-14,14,2008,25,"Lower Lough Corrib",41
-14,14,2009,26,"Lower Lough Corrib",50
-14,14,2010,27,"Lower Lough Corrib",76
-14,14,2011,28,"Lower Lough Corrib",50
-14,14,2012,29,"Lower Lough Corrib",30
-14,14,2013,30,"Lower Lough Corrib",23
-14,14,2014,31,"Lower Lough Corrib",0
-14,14,2015,32,"Lower Lough Corrib",0
-14,14,2016,33,"Lower Lough Corrib",2
-14,14,2017,34,"Lower Lough Corrib",25
-14,14,2018,35,"Lower Lough Corrib",20
-15,15,1984,1,"Rahasane",65
-15,15,1985,2,"Rahasane",63
-15,15,1986,3,"Rahasane",66
-15,15,1987,4,"Rahasane",71
-15,15,1988,5,"Rahasane",105
-15,15,1989,6,"Rahasane",82
-15,15,1990,7,"Rahasane",131
-15,15,1991,8,"Rahasane",124
-15,15,1992,9,"Rahasane",121
-15,15,1993,10,"Rahasane",98
-15,15,1994,11,"Rahasane",135
-15,15,1995,12,"Rahasane",150
-15,15,1996,13,"Rahasane",174
-15,15,1997,14,"Rahasane",180
-15,15,1998,15,"Rahasane",190
-15,15,1999,16,"Rahasane",180
-15,15,2000,17,"Rahasane",104
-15,15,2001,18,"Rahasane",134
-15,15,2002,19,"Rahasane",153
-15,15,2003,20,"Rahasane",94
-15,15,2004,21,"Rahasane",95
-15,15,2005,22,"Rahasane",100
-15,15,2006,23,"Rahasane",61
-15,15,2007,24,"Rahasane",98
-15,15,2008,25,"Rahasane",90
-15,15,2009,26,"Rahasane",76
-15,15,2010,27,"Rahasane",63
-15,15,2011,28,"Rahasane",57
-15,15,2012,29,"Rahasane",62
-15,15,2013,30,"Rahasane",58
-15,15,2014,31,"Rahasane",60
-15,15,2015,32,"Rahasane",68
-15,15,2016,33,"Rahasane",88
-15,15,2017,34,"Rahasane",65
-15,15,2018,35,"Rahasane",69
-16,16,1984,1,"Tullagher",27
-16,16,1985,2,"Tullagher",52
-16,16,1986,3,"Tullagher",43
-16,16,1987,4,"Tullagher",55
-16,16,1988,5,"Tullagher",52
-16,16,1989,6,"Tullagher",66
-16,16,1990,7,"Tullagher",63
-16,16,1991,8,"Tullagher",72
-16,16,1992,9,"Tullagher",62
-16,16,1993,10,"Tullagher",73
-16,16,1994,11,"Tullagher",62
-16,16,1995,12,"Tullagher",62
-16,16,1996,13,"Tullagher",72
-16,16,1997,14,"Tullagher",62
-16,16,1998,15,"Tullagher",48
-16,16,1999,16,"Tullagher",44
-16,16,2000,17,"Tullagher",38
-16,16,2001,18,"Tullagher",31
-16,16,2002,19,"Tullagher",28
-16,16,2003,20,"Tullagher",24
-16,16,2004,21,"Tullagher",17
-16,16,2005,22,"Tullagher",15
-16,16,2006,23,"Tullagher",20
-16,16,2007,24,"Tullagher",18
-16,16,2008,25,"Tullagher",15
-16,16,2009,26,"Tullagher",22
-16,16,2010,27,"Tullagher",28
-16,16,2011,28,"Tullagher",22
-16,16,2012,29,"Tullagher",21
-16,16,2013,30,"Tullagher",13
-16,16,2014,31,"Tullagher",18
-16,16,2015,32,"Tullagher",18
-16,16,2016,33,"Tullagher",18
-16,16,2017,34,"Tullagher",23
-16,16,2018,35,"Tullagher",9
-17,17,1984,1,"N Clare",49
-17,17,1985,2,"N Clare",56
-17,17,1986,3,"N Clare",67
-17,17,1987,4,"N Clare",42
-17,17,1988,5,"N Clare",52
-17,17,1989,6,"N Clare",55
-17,17,1990,7,"N Clare",74
-17,17,1991,8,"N Clare",39
-17,17,1992,9,"N Clare",74
-17,17,1993,10,"N Clare",40
-17,17,1994,11,"N Clare",56
-17,17,1995,12,"N Clare",47
-17,17,1996,13,"N Clare",35
-17,17,1997,14,"N Clare",43
-17,17,1998,15,"N Clare",68
-17,17,1999,16,"N Clare",63
-17,17,2000,17,"N Clare",57
-17,17,2001,18,"N Clare",52
-17,17,2002,19,"N Clare",46
-17,17,2003,20,"N Clare",46
-17,17,2004,21,"N Clare",46
-17,17,2005,22,"N Clare",45
-17,17,2006,23,"N Clare",45
-17,17,2007,24,"N Clare",45
-17,17,2008,25,"N Clare",45
-17,17,2009,26,"N Clare",45
-17,17,2010,27,"N Clare",45
-17,17,2011,28,"N Clare",48
-17,17,2012,29,"N Clare",48
-17,17,2013,30,"N Clare",44
-17,17,2014,31,"N Clare",38
-17,17,2015,32,"N Clare",39
-17,17,2016,33,"N Clare",42
-17,17,2017,34,"N Clare",37
-17,17,2018,35,"N Clare",43
-18,18,1984,1,"Lower Lough Derg",9
-18,18,1985,2,"Lower Lough Derg",21
-18,18,1986,3,"Lower Lough Derg",25
-18,18,1987,4,"Lower Lough Derg",8
-18,18,1988,5,"Lower Lough Derg",16
-18,18,1989,6,"Lower Lough Derg",5
-18,18,1990,7,"Lower Lough Derg",33
-18,18,1991,8,"Lower Lough Derg",2
-18,18,1992,9,"Lower Lough Derg",0
-18,18,1993,10,"Lower Lough Derg",0
-18,18,1994,11,"Lower Lough Derg",40
-18,18,1995,12,"Lower Lough Derg",6
-18,18,1996,13,"Lower Lough Derg",0
-19,19,1984,1,"Fergus and Shannon",9
-19,19,1985,2,"Fergus and Shannon",21
-19,19,1986,3,"Fergus and Shannon",25
-19,19,1987,4,"Fergus and Shannon",8
-19,19,1988,5,"Fergus and Shannon",16
-19,19,1989,6,"Fergus and Shannon",5
-19,19,1990,7,"Fergus and Shannon",33
-19,19,1991,8,"Fergus and Shannon",2
-19,19,1992,9,"Fergus and Shannon",0
-19,19,1993,10,"Fergus and Shannon",0
-19,19,1994,11,"Fergus and Shannon",40
-19,19,1995,12,"Fergus and Shannon",6
-19,19,1996,13,"Fergus and Shannon",0
-20,20,1984,1,"Lough Gara",397
-20,20,1985,2,"Lough Gara",447
-20,20,1986,3,"Lough Gara",434
-20,20,1987,4,"Lough Gara",421
-20,20,1988,5,"Lough Gara",468
-20,20,1989,6,"Lough Gara",514
-20,20,1990,7,"Lough Gara",500
-20,20,1991,8,"Lough Gara",465
-20,20,1992,9,"Lough Gara",500
-20,20,1993,10,"Lough Gara",538
-20,20,1994,11,"Lough Gara",580
-20,20,1995,12,"Lough Gara",556
-20,20,1996,13,"Lough Gara",486
-20,20,1997,14,"Lough Gara",482
-20,20,1998,15,"Lough Gara",452
-20,20,1999,16,"Lough Gara",335
-20,20,2000,17,"Lough Gara",218
-20,20,2001,18,"Lough Gara",221
-20,20,2002,19,"Lough Gara",118
-20,20,2003,20,"Lough Gara",171
-20,20,2004,21,"Lough Gara",82
-20,20,2005,22,"Lough Gara",202
-20,20,2006,23,"Lough Gara",113
-20,20,2007,24,"Lough Gara",131
-20,20,2008,25,"Lough Gara",148
-20,20,2009,26,"Lough Gara",148
-20,20,2010,27,"Lough Gara",148
-20,20,2011,28,"Lough Gara",131
-20,20,2012,29,"Lough Gara",114
-20,20,2013,30,"Lough Gara",114
-20,20,2014,31,"Lough Gara",114
-20,20,2015,32,"Lough Gara",101
-20,20,2016,33,"Lough Gara",100
-20,20,2017,34,"Lough Gara",120
-20,20,2018,35,"Lough Gara",134
-21,21,1984,1,"Drumharlow",174
-21,21,1985,2,"Drumharlow",108
-21,21,1986,3,"Drumharlow",127
-21,21,1987,4,"Drumharlow",132
-21,21,1988,5,"Drumharlow",176
-21,21,1989,6,"Drumharlow",75
-21,21,1990,7,"Drumharlow",82
-21,21,1991,8,"Drumharlow",82
-21,21,1992,9,"Drumharlow",100
-21,21,1993,10,"Drumharlow",152
-21,21,1994,11,"Drumharlow",138
-21,21,1995,12,"Drumharlow",147
-21,21,1996,13,"Drumharlow",121
-21,21,1997,14,"Drumharlow",74
-21,21,1998,15,"Drumharlow",54
-21,21,1999,16,"Drumharlow",46
-21,21,2000,17,"Drumharlow",37
-21,21,2001,18,"Drumharlow",20
-21,21,2002,19,"Drumharlow",22
-21,21,2003,20,"Drumharlow",0
-22,22,1984,1,"Kilglass & Lough Forbes",106
-22,22,1985,2,"Kilglass & Lough Forbes",110
-22,22,1986,3,"Kilglass & Lough Forbes",82
-22,22,1987,4,"Kilglass & Lough Forbes",113
-22,22,1988,5,"Kilglass & Lough Forbes",148
-22,22,1989,6,"Kilglass & Lough Forbes",123
-22,22,1990,7,"Kilglass & Lough Forbes",240
-22,22,1991,8,"Kilglass & Lough Forbes",240
-22,22,1992,9,"Kilglass & Lough Forbes",240
-22,22,1993,10,"Kilglass & Lough Forbes",240
-22,22,1994,11,"Kilglass & Lough Forbes",167
-22,22,1995,12,"Kilglass & Lough Forbes",89
-22,22,1996,13,"Kilglass & Lough Forbes",4
-22,22,1997,14,"Kilglass & Lough Forbes",23
-22,22,1998,15,"Kilglass & Lough Forbes",19
-22,22,1999,16,"Kilglass & Lough Forbes",0
-22,22,2000,17,"Kilglass & Lough Forbes",0
-22,22,2001,18,"Kilglass & Lough Forbes",31
-22,22,2002,19,"Kilglass & Lough Forbes",0
-23,23,1984,1,"Midlands",342
-23,23,1985,2,"Midlands",388
-23,23,1986,3,"Midlands",445
-23,23,1987,4,"Midlands",365
-23,23,1988,5,"Midlands",343
-23,23,1989,6,"Midlands",300
-23,23,1990,7,"Midlands",357
-23,23,1991,8,"Midlands",344
-23,23,1992,9,"Midlands",300
-23,23,1993,10,"Midlands",346
-23,23,1994,11,"Midlands",585
-23,23,1995,12,"Midlands",495
-23,23,1996,13,"Midlands",525
-23,23,1997,14,"Midlands",410
-23,23,1998,15,"Midlands",350
-23,23,1999,16,"Midlands",359
-23,23,2000,17,"Midlands",337
-23,23,2001,18,"Midlands",314
-23,23,2002,19,"Midlands",347
-23,23,2003,20,"Midlands",258
-23,23,2004,21,"Midlands",240
-23,23,2005,22,"Midlands",260
-23,23,2006,23,"Midlands",259
-23,23,2007,24,"Midlands",260
-23,23,2008,25,"Midlands",260
-23,23,2009,26,"Midlands",260
-23,23,2010,27,"Midlands",305
-23,23,2011,28,"Midlands",260
-23,23,2012,29,"Midlands",263
-23,23,2013,30,"Midlands",218
-23,23,2014,31,"Midlands",230
-23,23,2015,32,"Midlands",212
-23,23,2016,33,"Midlands",193
-23,23,2017,34,"Midlands",268
-23,23,2018,35,"Midlands",185
-24,24,1984,1,"Lough Ree",68
-24,24,1985,2,"Lough Ree",113
-24,24,1986,3,"Lough Ree",90
-24,24,1987,4,"Lough Ree",100
-24,24,1988,5,"Lough Ree",84
-24,24,1989,6,"Lough Ree",105
-24,24,1990,7,"Lough Ree",125
-24,24,1991,8,"Lough Ree",107
-24,24,1992,9,"Lough Ree",75
-24,24,1993,10,"Lough Ree",70
-24,24,1994,11,"Lough Ree",74
-24,24,1995,12,"Lough Ree",19
-24,24,1996,13,"Lough Ree",25
-24,24,1997,14,"Lough Ree",99
-24,24,1998,15,"Lough Ree",50
-24,24,1999,16,"Lough Ree",49
-24,24,2000,17,"Lough Ree",47
-24,24,2001,18,"Lough Ree",44
-24,24,2002,19,"Lough Ree",51
-24,24,2003,20,"Lough Ree",57
-24,24,2004,21,"Lough Ree",66
-24,24,2005,22,"Lough Ree",74
-24,24,2006,23,"Lough Ree",91
-24,24,2007,24,"Lough Ree",34
-24,24,2008,25,"Lough Ree",30
-24,24,2009,26,"Lough Ree",10
-24,24,2010,27,"Lough Ree",26
-24,24,2011,28,"Lough Ree",25
-24,24,2012,29,"Lough Ree",0
-24,24,2017,34,"Lough Ree",21
-24,24,2018,35,"Lough Ree",21
-25,25,1984,1,"Suck",412
-25,25,1985,2,"Suck",407
-25,25,1986,3,"Suck",483
-25,25,1987,4,"Suck",493
-25,25,1988,5,"Suck",438
-25,25,1989,6,"Suck",263
-25,25,1990,7,"Suck",520
-25,25,1991,8,"Suck",506
-25,25,1992,9,"Suck",275
-25,25,1993,10,"Suck",322
-25,25,1994,11,"Suck",252
-25,25,1995,12,"Suck",257
-25,25,1996,13,"Suck",244
-25,25,1997,14,"Suck",323
-25,25,1998,15,"Suck",358
-25,25,1999,16,"Suck",292
-25,25,2000,17,"Suck",450
-25,25,2001,18,"Suck",350
-25,25,2002,19,"Suck",228
-25,25,2003,20,"Suck",154
-25,25,2004,21,"Suck",182
-25,25,2005,22,"Suck",150
-25,25,2006,23,"Suck",200
-25,25,2007,24,"Suck",164
-25,25,2008,25,"Suck",202
-25,25,2009,26,"Suck",280
-25,25,2010,27,"Suck",163
-25,25,2011,28,"Suck",205
-25,25,2012,29,"Suck",196
-25,25,2013,30,"Suck",165
-25,25,2014,31,"Suck",150
-25,25,2015,32,"Suck",165
-25,25,2016,33,"Suck",165
-25,25,2017,34,"Suck",109
-25,25,2018,35,"Suck",109
-26,26,1984,1,"Bronsa",299
-26,26,1985,2,"Bronsa",385
-26,26,1986,3,"Bronsa",408
-26,26,1987,4,"Bronsa",419
-26,26,1988,5,"Bronsa",485
-26,26,1989,6,"Bronsa",515
-26,26,1990,7,"Bronsa",548
-26,26,1991,8,"Bronsa",528
-26,26,1992,9,"Bronsa",557
-26,26,1993,10,"Bronsa",555
-26,26,1994,11,"Bronsa",622
-26,26,1995,12,"Bronsa",594
-26,26,1996,13,"Bronsa",519
-26,26,1997,14,"Bronsa",511
-26,26,1998,15,"Bronsa",420
-26,26,1999,16,"Bronsa",371
-26,26,2000,17,"Bronsa",434
-26,26,2001,18,"Bronsa",425
-26,26,2002,19,"Bronsa",302
-26,26,2003,20,"Bronsa",293
-26,26,2004,21,"Bronsa",330
-26,26,2005,22,"Bronsa",250
-26,26,2006,23,"Bronsa",256
-26,26,2007,24,"Bronsa",252
-26,26,2008,25,"Bronsa",250
-26,26,2009,26,"Bronsa",230
-26,26,2010,27,"Bronsa",230
-26,26,2011,28,"Bronsa",220
-26,26,2012,29,"Bronsa",200
-26,26,2013,30,"Bronsa",135
-26,26,2014,31,"Bronsa",150
-26,26,2015,32,"Bronsa",137
-26,26,2016,33,"Bronsa",170
-26,26,2017,34,"Bronsa",150
-26,26,2018,35,"Bronsa",175
-27,27,1984,1,"South Midlands",70
-27,27,1985,2,"South Midlands",66
-27,27,1986,3,"South Midlands",70
-27,27,1987,4,"South Midlands",85
-27,27,1988,5,"South Midlands",57
-27,27,1989,6,"South Midlands",57
-27,27,1990,7,"South Midlands",66
-27,27,1991,8,"South Midlands",46
-27,27,1992,9,"South Midlands",46
-27,27,1993,10,"South Midlands",42
-27,27,1994,11,"South Midlands",42
-27,27,1995,12,"South Midlands",36
-27,27,1996,13,"South Midlands",30
-27,27,1997,14,"South Midlands",39
-27,27,1998,15,"South Midlands",15
-27,27,1999,16,"South Midlands",16
-27,27,2000,17,"South Midlands",16
-27,27,2001,18,"South Midlands",17
-27,27,2002,19,"South Midlands",16
-27,27,2003,20,"South Midlands",14
-27,27,2004,21,"South Midlands",13
-27,27,2005,22,"South Midlands",10
-27,27,2006,23,"South Midlands",22
-27,27,2007,24,"South Midlands",7
-27,27,2008,25,"South Midlands",8
-27,27,2009,26,"South Midlands",9
-27,27,2010,27,"South Midlands",9
-27,27,2011,28,"South Midlands",11
-27,27,2012,29,"South Midlands",11
-27,27,2013,30,"South Midlands",7
-27,27,2014,31,"South Midlands",7
-27,27,2015,32,"South Midlands",0
-28,28,1984,1,"Kilcoman",19
-28,28,1985,2,"Kilcoman",27
-28,28,1986,3,"Kilcoman",42
-28,28,1987,4,"Kilcoman",6
-28,28,1988,5,"Kilcoman",9
-28,28,1989,6,"Kilcoman",2
-28,28,1990,7,"Kilcoman",15
-28,28,1991,8,"Kilcoman",3
-28,28,1992,9,"Kilcoman",6
-28,28,1993,10,"Kilcoman",6
-28,28,1994,11,"Kilcoman",5
-28,28,1995,12,"Kilcoman",1
-28,28,1996,13,"Kilcoman",6
-28,28,1997,14,"Kilcoman",2
-28,28,1998,15,"Kilcoman",2
-28,28,1999,16,"Kilcoman",2
-28,28,2000,17,"Kilcoman",3
-28,28,2001,18,"Kilcoman",3
-28,28,2002,19,"Kilcoman",0
-29,29,1984,1,"Doo Lough",55
-29,29,1985,2,"Doo Lough",70
-29,29,1986,3,"Doo Lough",39
-29,29,1987,4,"Doo Lough",23
-29,29,1988,5,"Doo Lough",25
-29,29,1989,6,"Doo Lough",30
-29,29,1990,7,"Doo Lough",8
-29,29,1991,8,"Doo Lough",6
-29,29,1992,9,"Doo Lough",6
-29,29,1993,10,"Doo Lough",3
-29,29,1994,11,"Doo Lough",0
-29,29,1995,12,"Doo Lough",9
-29,29,1996,13,"Doo Lough",0
-30,30,1984,1,"Killarney",52
-30,30,1985,2,"Killarney",60
-30,30,1986,3,"Killarney",64
-30,30,1987,4,"Killarney",51
-30,30,1988,5,"Killarney",40
-30,30,1989,6,"Killarney",34
-30,30,1990,7,"Killarney",42
-30,30,1991,8,"Killarney",37
-30,30,1992,9,"Killarney",36
-30,30,1993,10,"Killarney",43
-30,30,1994,11,"Killarney",35
-30,30,1995,12,"Killarney",26
-30,30,1996,13,"Killarney",19
-30,30,1997,14,"Killarney",23
-30,30,1998,15,"Killarney",27
-30,30,1999,16,"Killarney",17
-30,30,2000,17,"Killarney",16
-30,30,2001,18,"Killarney",16
-30,30,2002,19,"Killarney",16
-30,30,2003,20,"Killarney",15
-30,30,2004,21,"Killarney",15
-30,30,2005,22,"Killarney",14
-30,30,2006,23,"Killarney",14
-30,30,2007,24,"Killarney",13
-30,30,2008,25,"Killarney",14
-30,30,2009,26,"Killarney",11
-30,30,2010,27,"Killarney",8
-30,30,2011,28,"Killarney",6
-30,30,2012,29,"Killarney",7
-30,30,2013,30,"Killarney",7
-30,30,2014,31,"Killarney",0
-32,31,1984,1,"Blaskets",60
-32,31,1985,2,"Blaskets",40
-32,31,1986,3,"Blaskets",47
-32,31,1987,4,"Blaskets",28
-32,31,1988,5,"Blaskets",31
-32,31,1989,6,"Blaskets",9
-32,31,1990,7,"Blaskets",0
-32,31,1991,8,"Blaskets",6
-32,31,1992,9,"Blaskets",22
-32,31,1993,10,"Blaskets",14
-32,31,1994,11,"Blaskets",0
-33,32,1984,1,"Stabannan",42
-33,32,1985,2,"Stabannan",42
-33,32,1986,3,"Stabannan",42
-33,32,1987,4,"Stabannan",42
-33,32,1988,5,"Stabannan",27
-33,32,1989,6,"Stabannan",26
-33,32,1990,7,"Stabannan",36
-33,32,1991,8,"Stabannan",29
-33,32,1992,9,"Stabannan",38
-33,32,1993,10,"Stabannan",41
-33,32,1994,11,"Stabannan",47
-33,32,1995,12,"Stabannan",44
-33,32,1996,13,"Stabannan",48
-33,32,1997,14,"Stabannan",50
-33,32,1998,15,"Stabannan",17
-33,32,1999,16,"Stabannan",40
-33,32,2000,17,"Stabannan",38
-33,32,2001,18,"Stabannan",35
-33,32,2002,19,"Stabannan",33
-33,32,2003,20,"Stabannan",30
-33,32,2004,21,"Stabannan",28
-33,32,2005,22,"Stabannan",25
-33,32,2006,23,"Stabannan",23
-33,32,2007,24,"Stabannan",20
-33,32,2008,25,"Stabannan",51
-33,32,2009,26,"Stabannan",33
-33,32,2010,27,"Stabannan",30
-33,32,2011,28,"Stabannan",52
-33,32,2012,29,"Stabannan",32
-33,32,2013,30,"Stabannan",47
-33,32,2014,31,"Stabannan",20
-33,32,2015,32,"Stabannan",39
-33,32,2016,33,"Stabannan",15
-33,32,2017,34,"Stabannan",26
-33,32,2018,35,"Stabannan",20
-34,33,1984,1,"Wexford",7918
-34,33,1985,2,"Wexford",8066
-34,33,1986,3,"Wexford",8948
-34,33,1987,4,"Wexford",8781
-34,33,1988,5,"Wexford",11016
-34,33,1989,6,"Wexford",9539
-34,33,1990,7,"Wexford",10790
-34,33,1991,8,"Wexford",9823
-34,33,1992,9,"Wexford",8425
-34,33,1993,10,"Wexford",10356
-34,33,1994,11,"Wexford",9447
-34,33,1995,12,"Wexford",10150
-34,33,1996,13,"Wexford",8697
-34,33,1997,14,"Wexford",9708
-34,33,1998,15,"Wexford",9567
-34,33,1999,16,"Wexford",8708
-34,33,2000,17,"Wexford",8138
-34,33,2001,18,"Wexford",7663
-34,33,2002,19,"Wexford",9385
-34,33,2003,20,"Wexford",9388
-34,33,2004,21,"Wexford",9093
-34,33,2005,22,"Wexford",7892
-34,33,2006,23,"Wexford",9713
-34,33,2007,24,"Wexford",9794
-34,33,2008,25,"Wexford",8188
-34,33,2009,26,"Wexford",8381
-34,33,2010,27,"Wexford",10012
-34,33,2011,28,"Wexford",9721
-34,33,2012,29,"Wexford",8751
-34,33,2013,30,"Wexford",9398
-34,33,2014,31,"Wexford",8092
-34,33,2015,32,"Wexford",7547
-34,33,2016,33,"Wexford",7214
-34,33,2017,34,"Wexford",7637
-34,33,2018,35,"Wexford",7436
-37,34,1984,1,"Loons",31
-37,34,1985,2,"Loons",49
-37,34,1986,3,"Loons",79
-37,34,1987,4,"Loons",75
-37,34,1988,5,"Loons",66
-37,34,1989,6,"Loons",94
-37,34,1990,7,"Loons",89
-37,34,1991,8,"Loons",119
-37,34,1992,9,"Loons",79
-37,34,1993,10,"Loons",98
-37,34,1994,11,"Loons",99
-37,34,1995,12,"Loons",166
-37,34,1996,13,"Loons",148
-37,34,1997,14,"Loons",121
-37,34,1998,15,"Loons",125
-37,34,1999,16,"Loons",143
-37,34,2000,17,"Loons",112
-37,34,2001,18,"Loons",108
-37,34,2002,19,"Loons",106
-37,34,2003,20,"Loons",107
-37,34,2004,21,"Loons",106
-37,34,2005,22,"Loons",99
-37,34,2006,23,"Loons",105
-37,34,2007,24,"Loons",101
-37,34,2008,25,"Loons",70
-37,34,2009,26,"Loons",64
-37,34,2010,27,"Loons",70
-37,34,2011,28,"Loons",59
-37,34,2012,29,"Loons",100
-37,34,2013,30,"Loons",91
-37,34,2014,31,"Loons",70
-37,34,2015,32,"Loons",63
-37,34,2016,33,"Loons",78
-37,34,2017,34,"Loons",66
-37,34,2018,35,"Loons",54
-39,35,1984,1,"Westfield",150
-39,35,1985,2,"Westfield",190
-39,35,1986,3,"Westfield",165
-39,35,1987,4,"Westfield",163
-39,35,1988,5,"Westfield",199
-39,35,1989,6,"Westfield",209
-39,35,1990,7,"Westfield",180
-39,35,1991,8,"Westfield",329
-39,35,1992,9,"Westfield",190
-39,35,1993,10,"Westfield",196
-39,35,1994,11,"Westfield",206
-39,35,1995,12,"Westfield",238
-39,35,1996,13,"Westfield",210
-39,35,1997,14,"Westfield",206
-39,35,1998,15,"Westfield",230
-39,35,1999,16,"Westfield",255
-39,35,2000,17,"Westfield",171
-39,35,2001,18,"Westfield",215
-39,35,2002,19,"Westfield",196
-39,35,2003,20,"Westfield",171
-39,35,2004,21,"Westfield",158
-39,35,2005,22,"Westfield",200
-39,35,2006,23,"Westfield",155
-39,35,2007,24,"Westfield",173
-39,35,2008,25,"Westfield",172
-39,35,2009,26,"Westfield",140
-39,35,2010,27,"Westfield",180
-39,35,2011,28,"Westfield",168
-39,35,2012,29,"Westfield",154
-39,35,2013,30,"Westfield",160
-39,35,2014,31,"Westfield",120
-39,35,2015,32,"Westfield",150
-39,35,2016,33,"Westfield",126
-39,35,2017,34,"Westfield",150
-39,35,2018,35,"Westfield",124
-40,36,1984,1,"Mey",110
-40,36,1985,2,"Mey",100
-40,36,1986,3,"Mey",200
-40,36,1987,4,"Mey",170
-40,36,1988,5,"Mey",162
-40,36,1989,6,"Mey",305
-40,36,1990,7,"Mey",160
-40,36,1991,8,"Mey",148
-40,36,1992,9,"Mey",160
-40,36,1993,10,"Mey",178
-40,36,1994,11,"Mey",196
-40,36,1995,12,"Mey",258
-40,36,1996,13,"Mey",196
-40,36,1997,14,"Mey",217
-40,36,1998,15,"Mey",215
-40,36,1999,16,"Mey",205
-40,36,2000,17,"Mey",232
-40,36,2001,18,"Mey",260
-40,36,2002,19,"Mey",208
-40,36,2003,20,"Mey",196
-40,36,2004,21,"Mey",193
-40,36,2005,22,"Mey",184
-40,36,2006,23,"Mey",176
-40,36,2007,24,"Mey",146
-40,36,2008,25,"Mey",240
-40,36,2009,26,"Mey",170
-40,36,2010,27,"Mey",118
-40,36,2011,28,"Mey",170
-40,36,2012,29,"Mey",137
-40,36,2013,30,"Mey",163
-40,36,2014,31,"Mey",130
-40,36,2015,32,"Mey",141
-40,36,2016,33,"Mey",150
-40,36,2017,34,"Mey",161
-40,36,2018,35,"Mey",131
-45,37,1984,1,"Urrahag",28
-45,37,1985,2,"Urrahag",17
-45,37,1986,3,"Urrahag",24
-45,37,1987,4,"Urrahag",20
-45,37,1988,5,"Urrahag",20
-45,37,1989,6,"Urrahag",42
-45,37,1990,7,"Urrahag",41
-45,37,1991,8,"Urrahag",36
-45,37,1992,9,"Urrahag",28
-45,37,1993,10,"Urrahag",23
-45,37,1994,11,"Urrahag",35
-45,37,1995,12,"Urrahag",21
-45,37,1996,13,"Urrahag",26
-45,37,1997,14,"Urrahag",22
-45,37,1998,15,"Urrahag",25
-45,37,1999,16,"Urrahag",24
-45,37,2000,17,"Urrahag",36
-45,37,2001,18,"Urrahag",36
-45,37,2002,19,"Urrahag",25
-45,37,2003,20,"Urrahag",21
-45,37,2004,21,"Urrahag",26
-45,37,2005,22,"Urrahag",18
-45,37,2006,23,"Urrahag",15
-45,37,2007,24,"Urrahag",24
-45,37,2008,25,"Urrahag",29
-45,37,2009,26,"Urrahag",46
-45,37,2010,27,"Urrahag",19
-45,37,2011,28,"Urrahag",23
-45,37,2012,29,"Urrahag",39
-45,37,2013,30,"Urrahag",34
-45,37,2014,31,"Urrahag",32
-45,37,2015,32,"Urrahag",35
-45,37,2016,33,"Urrahag",51
-45,37,2017,34,"Urrahag",38
-45,37,2018,35,"Urrahag",45
-47,38,1984,1,"Kilpheder",60
-47,38,1985,2,"Kilpheder",22
-47,38,1986,3,"Kilpheder",31
-47,38,1987,4,"Kilpheder",56
-47,38,1988,5,"Kilpheder",46
-47,38,1989,6,"Kilpheder",55
-47,38,1990,7,"Kilpheder",55
-47,38,1991,8,"Kilpheder",52
-47,38,1992,9,"Kilpheder",36
-47,38,1993,10,"Kilpheder",50
-47,38,1994,11,"Kilpheder",43
-47,38,1995,12,"Kilpheder",60
-47,38,1996,13,"Kilpheder",34
-47,38,1997,14,"Kilpheder",47
-47,38,1998,15,"Kilpheder",52
-47,38,1999,16,"Kilpheder",7
-47,38,2000,17,"Kilpheder",49
-47,38,2001,18,"Kilpheder",67
-47,38,2002,19,"Kilpheder",32
-47,38,2003,20,"Kilpheder",42
-47,38,2004,21,"Kilpheder",38
-47,38,2005,22,"Kilpheder",36
-47,38,2006,23,"Kilpheder",38
-47,38,2007,24,"Kilpheder",32
-47,38,2008,25,"Kilpheder",23
-47,38,2009,26,"Kilpheder",14
-47,38,2010,27,"Kilpheder",33
-47,38,2011,28,"Kilpheder",31
-47,38,2012,29,"Kilpheder",36
-47,38,2013,30,"Kilpheder",24
-47,38,2014,31,"Kilpheder",19
-47,38,2015,32,"Kilpheder",11
-47,38,2016,33,"Kilpheder",15
-47,38,2017,34,"Kilpheder",8
-47,38,2018,35,"Kilpheder",11
-48,39,1984,1,"Loch Bee",60
-48,39,1985,2,"Loch Bee",46
-48,39,1986,3,"Loch Bee",54
-48,39,1987,4,"Loch Bee",57
-48,39,1988,5,"Loch Bee",17
-48,39,1989,6,"Loch Bee",73
-48,39,1990,7,"Loch Bee",55
-48,39,1991,8,"Loch Bee",75
-48,39,1992,9,"Loch Bee",80
-48,39,1993,10,"Loch Bee",109
-48,39,1994,11,"Loch Bee",109
-48,39,1995,12,"Loch Bee",110
-48,39,1996,13,"Loch Bee",106
-48,39,1997,14,"Loch Bee",130
-48,39,1998,15,"Loch Bee",120
-48,39,1999,16,"Loch Bee",102
-48,39,2000,17,"Loch Bee",111
-48,39,2001,18,"Loch Bee",108
-48,39,2002,19,"Loch Bee",140
-48,39,2003,20,"Loch Bee",107
-48,39,2004,21,"Loch Bee",99
-48,39,2005,22,"Loch Bee",144
-48,39,2006,23,"Loch Bee",160
-48,39,2007,24,"Loch Bee",127
-48,39,2008,25,"Loch Bee",150
-48,39,2009,26,"Loch Bee",123
-48,39,2010,27,"Loch Bee",100
-48,39,2011,28,"Loch Bee",102
-48,39,2012,29,"Loch Bee",113
-48,39,2013,30,"Loch Bee",151
-48,39,2014,31,"Loch Bee",121
-48,39,2015,32,"Loch Bee",100
-48,39,2016,33,"Loch Bee",142
-48,39,2017,34,"Loch Bee",125
-48,39,2018,35,"Loch Bee",130
-50,40,1984,1,"Snizort",47
-50,40,1985,2,"Snizort",47
-50,40,1986,3,"Snizort",47
-50,40,1987,4,"Snizort",32
-50,40,1988,5,"Snizort",30
-50,40,1989,6,"Snizort",28
-50,40,1990,7,"Snizort",26
-50,40,1991,8,"Snizort",40
-50,40,1992,9,"Snizort",33
-50,40,1993,10,"Snizort",44
-50,40,1994,11,"Snizort",27
-50,40,1995,12,"Snizort",30
-50,40,1996,13,"Snizort",9
-50,40,1997,14,"Snizort",3
-50,40,1998,15,"Snizort",5
-50,40,1999,16,"Snizort",8
-50,40,2000,17,"Snizort",10
-50,40,2001,18,"Snizort",12
-50,40,2002,19,"Snizort",20
-50,40,2003,20,"Snizort",34
-50,40,2004,21,"Snizort",30
-50,40,2005,22,"Snizort",27
-50,40,2006,23,"Snizort",20
-50,40,2007,24,"Snizort",25
-50,40,2008,25,"Snizort",28
-50,40,2009,26,"Snizort",24
-50,40,2010,27,"Snizort",26
-50,40,2011,28,"Snizort",31
-50,40,2012,29,"Snizort",27
-50,40,2013,30,"Snizort",14
-50,40,2014,31,"Snizort",16
-50,40,2015,32,"Snizort",14
-50,40,2016,33,"Snizort",10
-50,40,2017,34,"Snizort",7
-50,40,2018,35,"Snizort",7
-51,41,1984,1,"Broadford",33
-51,41,1985,2,"Broadford",70
-51,41,1986,3,"Broadford",30
-51,41,1987,4,"Broadford",49
-51,41,1988,5,"Broadford",70
-51,41,1989,6,"Broadford",60
-51,41,1990,7,"Broadford",37
-51,41,1991,8,"Broadford",39
-51,41,1992,9,"Broadford",48
-51,41,1993,10,"Broadford",47
-51,41,1994,11,"Broadford",65
-51,41,1995,12,"Broadford",73
-51,41,1996,13,"Broadford",70
-51,41,1997,14,"Broadford",40
-51,41,1998,15,"Broadford",23
-51,41,1999,16,"Broadford",17
-51,41,2000,17,"Broadford",65
-51,41,2001,18,"Broadford",50
-51,41,2002,19,"Broadford",28
-51,41,2003,20,"Broadford",59
-51,41,2004,21,"Broadford",62
-51,41,2005,22,"Broadford",35
-51,41,2006,23,"Broadford",48
-51,41,2007,24,"Broadford",38
-51,41,2008,25,"Broadford",36
-51,41,2009,26,"Broadford",28
-51,41,2010,27,"Broadford",24
-51,41,2011,28,"Broadford",21
-51,41,2012,29,"Broadford",17
-51,41,2013,30,"Broadford",20
-51,41,2014,31,"Broadford",9
-51,41,2015,32,"Broadford",12
-51,41,2016,33,"Broadford",19
-51,41,2017,34,"Broadford",8
-51,41,2018,35,"Broadford",0
-54,42,1984,1,"Loch Shiel",29
-54,42,1985,2,"Loch Shiel",28
-54,42,1986,3,"Loch Shiel",35
-54,42,1987,4,"Loch Shiel",51
-54,42,1988,5,"Loch Shiel",79
-54,42,1989,6,"Loch Shiel",60
-54,42,1990,7,"Loch Shiel",60
-54,42,1991,8,"Loch Shiel",46
-54,42,1992,9,"Loch Shiel",50
-54,42,1993,10,"Loch Shiel",48
-54,42,1994,11,"Loch Shiel",50
-54,42,1995,12,"Loch Shiel",52
-54,42,1996,13,"Loch Shiel",40
-54,42,1997,14,"Loch Shiel",42
-54,42,1998,15,"Loch Shiel",56
-54,42,1999,16,"Loch Shiel",40
-54,42,2000,17,"Loch Shiel",42
-54,42,2001,18,"Loch Shiel",43
-54,42,2002,19,"Loch Shiel",43
-54,42,2003,20,"Loch Shiel",40
-54,42,2004,21,"Loch Shiel",37
-54,42,2005,22,"Loch Shiel",35
-54,42,2006,23,"Loch Shiel",37
-54,42,2007,24,"Loch Shiel",37
-54,42,2008,25,"Loch Shiel",32
-54,42,2009,26,"Loch Shiel",35
-54,42,2010,27,"Loch Shiel",34
-54,42,2011,28,"Loch Shiel",32
-54,42,2012,29,"Loch Shiel",24
-54,42,2013,30,"Loch Shiel",28
-54,42,2014,31,"Loch Shiel",31
-54,42,2015,32,"Loch Shiel",49
-54,42,2016,33,"Loch Shiel",62
-54,42,2017,34,"Loch Shiel",64
-54,42,2018,35,"Loch Shiel",71
-55,43,1984,1,"Tiree",750
-55,43,1985,2,"Tiree",708
-55,43,1986,3,"Tiree",760
-55,43,1987,4,"Tiree",759
-55,43,1988,5,"Tiree",728
-55,43,1989,6,"Tiree",987
-55,43,1990,7,"Tiree",941
-55,43,1991,8,"Tiree",1101
-55,43,1992,9,"Tiree",585
-55,43,1993,10,"Tiree",470
-55,43,1994,11,"Tiree",516
-55,43,1995,12,"Tiree",1387
-55,43,1996,13,"Tiree",1455
-55,43,1997,14,"Tiree",1464
-55,43,1998,15,"Tiree",1444
-55,43,1999,16,"Tiree",1347
-55,43,2000,17,"Tiree",1221
-55,43,2001,18,"Tiree",1076
-55,43,2002,19,"Tiree",1093
-55,43,2003,20,"Tiree",954
-55,43,2004,21,"Tiree",1133
-55,43,2005,22,"Tiree",1112
-55,43,2006,23,"Tiree",974
-55,43,2007,24,"Tiree",803
-55,43,2008,25,"Tiree",979
-55,43,2009,26,"Tiree",861
-55,43,2010,27,"Tiree",898
-55,43,2011,28,"Tiree",948
-55,43,2012,29,"Tiree",927
-55,43,2013,30,"Tiree",739
-55,43,2014,31,"Tiree",748
-55,43,2015,32,"Tiree",855
-55,43,2016,33,"Tiree",951
-55,43,2017,34,"Tiree",830
-55,43,2018,35,"Tiree",854
-56,44,1984,1,"Coll",441
-56,44,1985,2,"Coll",548
-56,44,1986,3,"Coll",405
-56,44,1987,4,"Coll",400
-56,44,1988,5,"Coll",647
-56,44,1989,6,"Coll",671
-56,44,1990,7,"Coll",792
-56,44,1991,8,"Coll",621
-56,44,1992,9,"Coll",551
-56,44,1993,10,"Coll",865
-56,44,1994,11,"Coll",1026
-56,44,1995,12,"Coll",962
-56,44,1996,13,"Coll",1047
-56,44,1997,14,"Coll",1052
-56,44,1998,15,"Coll",1122
-56,44,1999,16,"Coll",1014
-56,44,2000,17,"Coll",721
-56,44,2001,18,"Coll",705
-56,44,2002,19,"Coll",611
-56,44,2003,20,"Coll",495
-56,44,2004,21,"Coll",814
-56,44,2005,22,"Coll",745
-56,44,2006,23,"Coll",687
-56,44,2007,24,"Coll",445
-56,44,2008,25,"Coll",336
-56,44,2009,26,"Coll",392
-56,44,2010,27,"Coll",301
-56,44,2011,28,"Coll",319
-56,44,2012,29,"Coll",256
-56,44,2013,30,"Coll",302
-56,44,2014,31,"Coll",243
-56,44,2015,32,"Coll",159
-56,44,2016,33,"Coll",267
-56,44,2017,34,"Coll",185
-56,44,2018,35,"Coll",172
-58,45,1984,1,"Fidden",48
-58,45,1985,2,"Fidden",51
-58,45,1986,3,"Fidden",81
-58,45,1987,4,"Fidden",47
-58,45,1988,5,"Fidden",55
-58,45,1989,6,"Fidden",48
-58,45,1990,7,"Fidden",57
-58,45,1991,8,"Fidden",44
-58,45,1992,9,"Fidden",41
-58,45,1993,10,"Fidden",53
-58,45,1994,11,"Fidden",68
-58,45,1995,12,"Fidden",39
-58,45,1996,13,"Fidden",57
-58,45,1997,14,"Fidden",22
-58,45,1998,15,"Fidden",35
-58,45,1999,16,"Fidden",52
-58,45,2000,17,"Fidden",36
-58,45,2001,18,"Fidden",45
-58,45,2002,19,"Fidden",33
-58,45,2003,20,"Fidden",41
-58,45,2004,21,"Fidden",50
-58,45,2005,22,"Fidden",53
-58,45,2006,23,"Fidden",40
-58,45,2007,24,"Fidden",46
-58,45,2008,25,"Fidden",32
-58,45,2009,26,"Fidden",31
-58,45,2010,27,"Fidden",32
-58,45,2011,28,"Fidden",20
-58,45,2012,29,"Fidden",25
-58,45,2013,30,"Fidden",33
-58,45,2014,31,"Fidden",33
-58,45,2015,32,"Fidden",15
-58,45,2016,33,"Fidden",25
-58,45,2017,34,"Fidden",41
-58,45,2018,35,"Fidden",30
-59,46,1984,1,"Assapol",21
-59,46,1985,2,"Assapol",28
-59,46,1986,3,"Assapol",28
-59,46,1987,4,"Assapol",25
-59,46,1988,5,"Assapol",31
-59,46,1989,6,"Assapol",57
-59,46,1990,7,"Assapol",34
-59,46,1991,8,"Assapol",31
-59,46,1992,9,"Assapol",41
-59,46,1993,10,"Assapol",41
-59,46,1994,11,"Assapol",38
-59,46,1995,12,"Assapol",51
-59,46,1996,13,"Assapol",40
-59,46,1997,14,"Assapol",34
-59,46,1998,15,"Assapol",40
-59,46,1999,16,"Assapol",0
-59,46,2000,17,"Assapol",0
-59,46,2001,18,"Assapol",26
-59,46,2002,19,"Assapol",33
-59,46,2003,20,"Assapol",40
-59,46,2004,21,"Assapol",21
-59,46,2005,22,"Assapol",1
-59,46,2006,23,"Assapol",0
-59,46,2007,24,"Assapol",0
-59,46,2008,25,"Assapol",7
-59,46,2009,26,"Assapol",7
-59,46,2010,27,"Assapol",0
-59,46,2011,28,"Assapol",0
-59,46,2012,29,"Assapol",0
-59,46,2013,30,"Assapol",4
-59,46,2014,31,"Assapol",3
-59,46,2015,32,"Assapol",2
-59,46,2016,33,"Assapol",2
-59,46,2017,34,"Assapol",1
-59,46,2018,35,"Assapol",1
-60,47,1984,1,"Colonsay",66
-60,47,1985,2,"Colonsay",78
-60,47,1986,3,"Colonsay",128
-60,47,1987,4,"Colonsay",127
-60,47,1988,5,"Colonsay",165
-60,47,1989,6,"Colonsay",120
-60,47,1990,7,"Colonsay",262
-60,47,1991,8,"Colonsay",210
-60,47,1992,9,"Colonsay",195
-60,47,1993,10,"Colonsay",150
-60,47,1994,11,"Colonsay",185
-60,47,1995,12,"Colonsay",206
-60,47,1996,13,"Colonsay",169
-60,47,1997,14,"Colonsay",288
-60,47,1998,15,"Colonsay",128
-60,47,1999,16,"Colonsay",204
-60,47,2000,17,"Colonsay",128
-60,47,2001,18,"Colonsay",144
-60,47,2002,19,"Colonsay",178
-60,47,2003,20,"Colonsay",131
-60,47,2004,21,"Colonsay",94
-60,47,2005,22,"Colonsay",120
-60,47,2006,23,"Colonsay",102
-60,47,2007,24,"Colonsay",110
-60,47,2008,25,"Colonsay",87
-60,47,2009,26,"Colonsay",133
-60,47,2010,27,"Colonsay",98
-60,47,2011,28,"Colonsay",88
-60,47,2012,29,"Colonsay",94
-60,47,2013,30,"Colonsay",99
-60,47,2014,31,"Colonsay",74
-60,47,2015,32,"Colonsay",73
-60,47,2016,33,"Colonsay",99
-60,47,2017,34,"Colonsay",102
-60,47,2018,35,"Colonsay",101
-61,48,1984,1,"Islay",5358
-61,48,1985,2,"Islay",6393
-61,48,1986,3,"Islay",6468
-61,48,1987,4,"Islay",7888
-61,48,1988,5,"Islay",7588
-61,48,1989,6,"Islay",8560
-61,48,1990,7,"Islay",8857
-61,48,1991,8,"Islay",10676
-61,48,1992,9,"Islay",11004
-61,48,1993,10,"Islay",11679
-61,48,1994,11,"Islay",12420
-61,48,1995,12,"Islay",15358
-61,48,1996,13,"Islay",13684
-61,48,1997,14,"Islay",15111
-61,48,1998,15,"Islay",15408
-61,48,1999,16,"Islay",14474
-61,48,2000,17,"Islay",13084
-61,48,2001,18,"Islay",11854
-61,48,2002,19,"Islay",12253
-61,48,2003,20,"Islay",11272
-61,48,2004,21,"Islay",8350
-61,48,2005,22,"Islay",7456
-61,48,2006,23,"Islay",7309
-61,48,2007,24,"Islay",7086
-61,48,2008,25,"Islay",8590
-61,48,2009,26,"Islay",7079
-61,48,2010,27,"Islay",8027
-61,48,2011,28,"Islay",4670
-61,48,2012,29,"Islay",5449
-61,48,2013,30,"Islay",5955
-61,48,2014,31,"Islay",4772
-61,48,2015,32,"Islay",5183
-61,48,2016,33,"Islay",6141
-61,48,2017,34,"Islay",5319
-61,48,2018,35,"Islay",6771
-62,49,1984,1,"Jura",36
-62,49,1985,2,"Jura",34
-62,49,1986,3,"Jura",84
-62,49,1987,4,"Jura",68
-62,49,1988,5,"Jura",52
-62,49,1989,6,"Jura",36
-62,49,1990,7,"Jura",25
-62,49,1991,8,"Jura",23
-62,49,1992,9,"Jura",20
-62,49,1993,10,"Jura",41
-62,49,1994,11,"Jura",35
-62,49,1995,12,"Jura",29
-62,49,1996,13,"Jura",24
-62,49,1997,14,"Jura",18
-62,49,1998,15,"Jura",12
-62,49,1999,16,"Jura",6
-62,49,2000,17,"Jura",11
-62,49,2001,18,"Jura",9
-62,49,2002,19,"Jura",9
-62,49,2003,20,"Jura",9
-62,49,2004,21,"Jura",5
-62,49,2005,22,"Jura",0
-62,49,2006,23,"Jura",16
-62,49,2007,24,"Jura",0
-62,49,2008,25,"Jura",0
-62,49,2009,26,"Jura",11
-62,49,2010,27,"Jura",14
-62,49,2011,28,"Jura",32
-62,49,2012,29,"Jura",10
-62,49,2013,30,"Jura",12
-62,49,2014,31,"Jura",5
-62,49,2015,32,"Jura",4
-62,49,2016,33,"Jura",2
-62,49,2017,34,"Jura",4
-62,49,2018,35,"Jura",0
-64,50,1984,1,"Keills/Danna/Ulva",87
-64,50,1985,2,"Keills/Danna/Ulva",110
-64,50,1986,3,"Keills/Danna/Ulva",136
-64,50,1987,4,"Keills/Danna/Ulva",197
-64,50,1988,5,"Keills/Danna/Ulva",200
-64,50,1989,6,"Keills/Danna/Ulva",224
-64,50,1990,7,"Keills/Danna/Ulva",245
-64,50,1991,8,"Keills/Danna/Ulva",362
-64,50,1992,9,"Keills/Danna/Ulva",288
-64,50,1993,10,"Keills/Danna/Ulva",256
-64,50,1994,11,"Keills/Danna/Ulva",375
-64,50,1995,12,"Keills/Danna/Ulva",414
-64,50,1996,13,"Keills/Danna/Ulva",333
-64,50,1997,14,"Keills/Danna/Ulva",441
-64,50,1998,15,"Keills/Danna/Ulva",425
-64,50,1999,16,"Keills/Danna/Ulva",301
-64,50,2000,17,"Keills/Danna/Ulva",452
-64,50,2001,18,"Keills/Danna/Ulva",403
-64,50,2002,19,"Keills/Danna/Ulva",411
-64,50,2003,20,"Keills/Danna/Ulva",377
-64,50,2004,21,"Keills/Danna/Ulva",338
-64,50,2005,22,"Keills/Danna/Ulva",344
-64,50,2006,23,"Keills/Danna/Ulva",300
-64,50,2007,24,"Keills/Danna/Ulva",221
-64,50,2008,25,"Keills/Danna/Ulva",239
-64,50,2009,26,"Keills/Danna/Ulva",240
-64,50,2010,27,"Keills/Danna/Ulva",259
-64,50,2011,28,"Keills/Danna/Ulva",231
-64,50,2012,29,"Keills/Danna/Ulva",219
-64,50,2013,30,"Keills/Danna/Ulva",201
-64,50,2014,31,"Keills/Danna/Ulva",217
-64,50,2015,32,"Keills/Danna/Ulva",204
-64,50,2016,33,"Keills/Danna/Ulva",233
-64,50,2017,34,"Keills/Danna/Ulva",177
-64,50,2018,35,"Keills/Danna/Ulva",234
-65,51,1984,1,"Moine Mhor",50
-65,51,1985,2,"Moine Mhor",51
-65,51,1986,3,"Moine Mhor",80
-65,51,1987,4,"Moine Mhor",76
-65,51,1988,5,"Moine Mhor",60
-65,51,1989,6,"Moine Mhor",58
-65,51,1990,7,"Moine Mhor",60
-65,51,1991,8,"Moine Mhor",40
-65,51,1992,9,"Moine Mhor",28
-65,51,1993,10,"Moine Mhor",27
-65,51,1994,11,"Moine Mhor",28
-65,51,1995,12,"Moine Mhor",45
-65,51,1996,13,"Moine Mhor",48
-65,51,1997,14,"Moine Mhor",28
-65,51,1998,15,"Moine Mhor",38
-65,51,1999,16,"Moine Mhor",33
-65,51,2000,17,"Moine Mhor",23
-65,51,2001,18,"Moine Mhor",29
-65,51,2002,19,"Moine Mhor",29
-65,51,2003,20,"Moine Mhor",23
-65,51,2004,21,"Moine Mhor",27
-65,51,2005,22,"Moine Mhor",31
-65,51,2006,23,"Moine Mhor",27
-65,51,2007,24,"Moine Mhor",25
-65,51,2008,25,"Moine Mhor",19
-65,51,2009,26,"Moine Mhor",18
-65,51,2010,27,"Moine Mhor",19
-65,51,2011,28,"Moine Mhor",11
-65,51,2012,29,"Moine Mhor",16
-65,51,2013,30,"Moine Mhor",11
-65,51,2014,31,"Moine Mhor",12
-65,51,2015,32,"Moine Mhor",8
-65,51,2016,33,"Moine Mhor",6
-65,51,2017,34,"Moine Mhor",2
-65,51,2018,35,"Moine Mhor",3
-66,52,1984,1,"Clachan",83
-66,52,1985,2,"Clachan",82
-66,52,1986,3,"Clachan",80
-66,52,1987,4,"Clachan",100
-66,52,1988,5,"Clachan",111
-66,52,1989,6,"Clachan",123
-66,52,1990,7,"Clachan",134
-66,52,1991,8,"Clachan",146
-66,52,1992,9,"Clachan",157
-66,52,1993,10,"Clachan",168
-66,52,1994,11,"Clachan",180
-66,52,1995,12,"Clachan",191
-66,52,1996,13,"Clachan",184
-66,52,1997,14,"Clachan",203
-66,52,1998,15,"Clachan",206
-66,52,1999,16,"Clachan",192
-66,52,2000,17,"Clachan",366
-66,52,2001,18,"Clachan",100
-66,52,2002,19,"Clachan",250
-66,52,2003,20,"Clachan",215
-66,52,2004,21,"Clachan",228
-66,52,2005,22,"Clachan",193
-66,52,2006,23,"Clachan",186
-66,52,2007,24,"Clachan",181
-66,52,2008,25,"Clachan",170
-66,52,2009,26,"Clachan",154
-66,52,2010,27,"Clachan",359
-66,52,2011,28,"Clachan",198
-66,52,2012,29,"Clachan",176
-66,52,2013,30,"Clachan",163
-66,52,2014,31,"Clachan",66
-66,52,2015,32,"Clachan",143
-66,52,2016,33,"Clachan",155
-66,52,2017,34,"Clachan",0
-66,52,2018,35,"Clachan",113
-67,53,1984,1,"Rhunahaorine",855
-67,53,1985,2,"Rhunahaorine",852
-67,53,1986,3,"Rhunahaorine",771
-67,53,1987,4,"Rhunahaorine",1005
-67,53,1988,5,"Rhunahaorine",1116
-67,53,1989,6,"Rhunahaorine",914
-67,53,1990,7,"Rhunahaorine",797
-67,53,1991,8,"Rhunahaorine",1499
-67,53,1992,9,"Rhunahaorine",993
-67,53,1993,10,"Rhunahaorine",1038
-67,53,1994,11,"Rhunahaorine",1361
-67,53,1995,12,"Rhunahaorine",1360
-67,53,1996,13,"Rhunahaorine",1272
-67,53,1997,14,"Rhunahaorine",1193
-67,53,1998,15,"Rhunahaorine",1532
-67,53,1999,16,"Rhunahaorine",1585
-67,53,2000,17,"Rhunahaorine",1551
-67,53,2001,18,"Rhunahaorine",1594
-67,53,2002,19,"Rhunahaorine",1450
-67,53,2003,20,"Rhunahaorine",1156
-67,53,2004,21,"Rhunahaorine",894
-67,53,2005,22,"Rhunahaorine",955
-67,53,2006,23,"Rhunahaorine",940
-67,53,2007,24,"Rhunahaorine",852
-67,53,2008,25,"Rhunahaorine",879
-67,53,2009,26,"Rhunahaorine",761
-67,53,2010,27,"Rhunahaorine",961
-67,53,2011,28,"Rhunahaorine",1035
-67,53,2012,29,"Rhunahaorine",851
-67,53,2013,30,"Rhunahaorine",833
-67,53,2014,31,"Rhunahaorine",785
-67,53,2015,32,"Rhunahaorine",604
-67,53,2016,33,"Rhunahaorine",677
-67,53,2017,34,"Rhunahaorine",860
-67,53,2018,35,"Rhunahaorine",498
-68,54,1984,1,"Machrihanish",600
-68,54,1985,2,"Machrihanish",590
-68,54,1986,3,"Machrihanish",716
-68,54,1987,4,"Machrihanish",944
-68,54,1988,5,"Machrihanish",907
-68,54,1989,6,"Machrihanish",1005
-68,54,1990,7,"Machrihanish",1240
-68,54,1991,8,"Machrihanish",1023
-68,54,1992,9,"Machrihanish",1110
-68,54,1993,10,"Machrihanish",1180
-68,54,1994,11,"Machrihanish",1044
-68,54,1995,12,"Machrihanish",1339
-68,54,1996,13,"Machrihanish",1629
-68,54,1997,14,"Machrihanish",931
-68,54,1998,15,"Machrihanish",1579
-68,54,1999,16,"Machrihanish",1322
-68,54,2000,17,"Machrihanish",1386
-68,54,2001,18,"Machrihanish",1448
-68,54,2002,19,"Machrihanish",1501
-68,54,2003,20,"Machrihanish",1377
-68,54,2004,21,"Machrihanish",1407
-68,54,2005,22,"Machrihanish",1433
-68,54,2006,23,"Machrihanish",1716
-68,54,2007,24,"Machrihanish",1451
-68,54,2008,25,"Machrihanish",1477
-68,54,2009,26,"Machrihanish",1363
-68,54,2010,27,"Machrihanish",1866
-68,54,2011,28,"Machrihanish",1515
-68,54,2012,29,"Machrihanish",1778
-68,54,2013,30,"Machrihanish",1617
-68,54,2014,31,"Machrihanish",1490
-68,54,2015,32,"Machrihanish",1621
-68,54,2016,33,"Machrihanish",1446
-68,54,2017,34,"Machrihanish",1486
-68,54,2018,35,"Machrihanish",1907
-69,55,1984,1,"Lomond",122
-69,55,1985,2,"Lomond",300
-69,55,1986,3,"Lomond",234
-69,55,1987,4,"Lomond",240
-69,55,1988,5,"Lomond",300
-69,55,1989,6,"Lomond",300
-69,55,1990,7,"Lomond",350
-69,55,1991,8,"Lomond",350
-69,55,1992,9,"Lomond",250
-69,55,1993,10,"Lomond",250
-69,55,1994,11,"Lomond",230
-69,55,1995,12,"Lomond",230
-69,55,1996,13,"Lomond",245
-69,55,1997,14,"Lomond",261
-69,55,1998,15,"Lomond",306
-69,55,1999,16,"Lomond",200
-69,55,2000,17,"Lomond",200
-69,55,2001,18,"Lomond",294
-69,55,2002,19,"Lomond",450
-69,55,2003,20,"Lomond",260
-69,55,2004,21,"Lomond",240
-69,55,2005,22,"Lomond",210
-69,55,2006,23,"Lomond",210
-69,55,2007,24,"Lomond",223
-69,55,2008,25,"Lomond",220
-69,55,2009,26,"Lomond",200
-69,55,2010,27,"Lomond",210
-69,55,2011,28,"Lomond",194
-69,55,2012,29,"Lomond",212
-69,55,2013,30,"Lomond",237
-69,55,2014,31,"Lomond",250
-69,55,2015,32,"Lomond",251
-69,55,2016,33,"Lomond",300
-69,55,2017,34,"Lomond",168
-69,55,2018,35,"Lomond",200
-70,56,1984,1,"Bute",49
-70,56,1985,2,"Bute",145
-70,56,1986,3,"Bute",140
-70,56,1987,4,"Bute",150
-70,56,1988,5,"Bute",140
-70,56,1989,6,"Bute",130
-70,56,1990,7,"Bute",160
-70,56,1991,8,"Bute",250
-70,56,1992,9,"Bute",130
-70,56,1993,10,"Bute",213
-70,56,1994,11,"Bute",226
-70,56,1995,12,"Bute",210
-70,56,1996,13,"Bute",218
-70,56,1997,14,"Bute",223
-70,56,1998,15,"Bute",273
-70,56,1999,16,"Bute",192
-70,56,2000,17,"Bute",200
-70,56,2001,18,"Bute",200
-70,56,2002,19,"Bute",186
-70,56,2003,20,"Bute",183
-70,56,2004,21,"Bute",206
-70,56,2005,22,"Bute",190
-70,56,2006,23,"Bute",209
-70,56,2007,24,"Bute",240
-70,56,2008,25,"Bute",210
-70,56,2009,26,"Bute",210
-70,56,2010,27,"Bute",230
-70,56,2011,28,"Bute",190
-70,56,2012,29,"Bute",165
-70,56,2013,30,"Bute",190
-70,56,2014,31,"Bute",160
-70,56,2015,32,"Bute",180
-70,56,2016,33,"Bute",130
-70,56,2017,34,"Bute",190
-70,56,2018,35,"Bute",130
-72,57,1984,1,"Stranraer",435
-72,57,1985,2,"Stranraer",530
-72,57,1986,3,"Stranraer",740
-72,57,1987,4,"Stranraer",700
-72,57,1988,5,"Stranraer",650
-72,57,1989,6,"Stranraer",770
-72,57,1990,7,"Stranraer",620
-72,57,1991,8,"Stranraer",650
-72,57,1992,9,"Stranraer",550
-72,57,1993,10,"Stranraer",552
-72,57,1994,11,"Stranraer",565
-72,57,1995,12,"Stranraer",550
-72,57,1996,13,"Stranraer",535
-72,57,1997,14,"Stranraer",680
-72,57,1998,15,"Stranraer",450
-72,57,1999,16,"Stranraer",440
-72,57,2000,17,"Stranraer",550
-72,57,2001,18,"Stranraer",500
-72,57,2002,19,"Stranraer",369
-72,57,2003,20,"Stranraer",281
-72,57,2004,21,"Stranraer",257
-72,57,2005,22,"Stranraer",282
-72,57,2006,23,"Stranraer",168
-72,57,2007,24,"Stranraer",247
-72,57,2008,25,"Stranraer",273
-72,57,2009,26,"Stranraer",254
-72,57,2010,27,"Stranraer",470
-72,57,2011,28,"Stranraer",244
-72,57,2012,29,"Stranraer",188
-72,57,2013,30,"Stranraer",191
-72,57,2014,31,"Stranraer",206
-72,57,2015,32,"Stranraer",231
-72,57,2016,33,"Stranraer",279
-72,57,2017,34,"Stranraer",205
-72,57,2018,35,"Stranraer",180
-74,58,1984,1,"Ken",285
-74,58,1985,2,"Ken",334
-74,58,1986,3,"Ken",350
-74,58,1987,4,"Ken",353
-74,58,1988,5,"Ken",342
-74,58,1989,6,"Ken",331
-74,58,1990,7,"Ken",306
-74,58,1991,8,"Ken",382
-74,58,1992,9,"Ken",323
-74,58,1993,10,"Ken",325
-74,58,1994,11,"Ken",293
-74,58,1995,12,"Ken",360
-74,58,1996,13,"Ken",318
-74,58,1997,14,"Ken",450
-74,58,1998,15,"Ken",357
-74,58,1999,16,"Ken",330
-74,58,2000,17,"Ken",325
-74,58,2001,18,"Ken",338
-74,58,2002,19,"Ken",275
-74,58,2003,20,"Ken",300
-74,58,2004,21,"Ken",215
-74,58,2005,22,"Ken",220
-74,58,2006,23,"Ken",206
-74,58,2007,24,"Ken",177
-74,58,2008,25,"Ken",194
-74,58,2009,26,"Ken",190
-74,58,2010,27,"Ken",203
-74,58,2011,28,"Ken",190
-74,58,2012,29,"Ken",164
-74,58,2013,30,"Ken",144
-74,58,2014,31,"Ken",163
-74,58,2015,32,"Ken",165
-74,58,2016,33,"Ken",174
-74,58,2017,34,"Ken",148
-74,58,2018,35,"Ken",161
-78,59,1984,1,"Dyfi",89
-78,59,1985,2,"Dyfi",109
-78,59,1986,3,"Dyfi",95
-78,59,1987,4,"Dyfi",127
-78,59,1988,5,"Dyfi",124
-78,59,1989,6,"Dyfi",131
-78,59,1990,7,"Dyfi",152
-78,59,1991,8,"Dyfi",143
-78,59,1992,9,"Dyfi",134
-78,59,1993,10,"Dyfi",160
-78,59,1994,11,"Dyfi",155
-78,59,1995,12,"Dyfi",142
-78,59,1996,13,"Dyfi",125
-78,59,1997,14,"Dyfi",106
-78,59,1998,15,"Dyfi",167
-78,59,1999,16,"Dyfi",112
-78,59,2000,17,"Dyfi",134
-78,59,2001,18,"Dyfi",97
-78,59,2002,19,"Dyfi",126
-78,59,2003,20,"Dyfi",116
-78,59,2004,21,"Dyfi",92
-78,59,2005,22,"Dyfi",102
-78,59,2006,23,"Dyfi",90
-78,59,2007,24,"Dyfi",76
-78,59,2008,25,"Dyfi",61
-78,59,2009,26,"Dyfi",59
-78,59,2010,27,"Dyfi",63
-78,59,2011,28,"Dyfi",48
-78,59,2012,29,"Dyfi",55
-78,59,2013,30,"Dyfi",37
-78,59,2014,31,"Dyfi",29
-78,59,2015,32,"Dyfi",23
-78,59,2016,33,"Dyfi",22
-78,59,2017,34,"Dyfi",24
-78,59,2018,35,"Dyfi",17
+"flock","year","count"
+1,1,254
+1,2,245
+1,3,239
+1,4,240
+1,5,267
+1,6,318
+1,7,369
+1,8,418
+1,9,371
+1,10,575
+1,11,613
+1,12,664
+1,13,894
+1,14,1015
+1,15,914
+1,16,1128
+1,17,1814
+1,18,1192
+1,19,1383
+1,20,994
+1,21,626
+1,22,903
+1,23,1136
+1,24,1107
+1,25,1195
+1,26,1038
+1,27,1248
+1,28,1288
+1,29,1171
+1,30,1220
+1,31,1050
+1,32,1026
+1,33,720
+1,34,607
+1,35,604
+2,1,120
+2,2,175
+2,3,154
+2,4,196
+2,5,227
+2,6,249
+2,7,228
+2,8,219
+2,9,193
+2,10,131
+2,11,147
+2,12,289
+2,13,211
+2,14,334
+2,15,219
+2,16,145
+2,17,269
+2,18,184
+2,19,306
+2,20,76
+2,21,120
+2,22,148
+2,23,160
+2,24,205
+2,25,60
+2,26,133
+2,27,46
+2,28,169
+2,29,135
+2,30,91
+2,31,101
+2,32,44
+2,33,44
+2,34,150
+2,35,129
+3,1,209
+3,2,396
+3,3,233
+3,4,281
+3,5,146
+3,6,165
+3,7,134
+3,8,93
+3,9,134
+3,10,110
+3,11,113
+3,12,104
+3,13,87
+3,14,110
+3,15,117
+3,16,82
+3,17,72
+3,18,44
+3,19,44
+3,20,40
+3,21,14
+3,22,48
+3,23,50
+3,24,44
+3,25,39
+3,26,35
+3,27,40
+3,28,41
+3,29,46
+3,30,42
+3,31,23
+3,32,31
+3,33,29
+3,34,35
+3,35,18
+4,1,112
+4,2,156
+4,3,164
+4,4,167
+4,5,224
+4,6,182
+4,7,127
+4,8,128
+4,9,131
+4,10,96
+4,11,120
+4,12,152
+4,13,136
+4,14,132
+4,15,144
+4,16,132
+4,17,139
+4,18,111
+4,19,103
+4,20,126
+4,21,113
+4,22,95
+4,23,129
+4,24,82
+4,25,66
+4,26,66
+4,27,78
+4,28,67
+4,29,55
+4,30,63
+4,31,103
+4,32,120
+4,33,82
+4,34,45
+4,35,47
+5,1,9
+5,2,21
+5,3,25
+5,4,8
+5,5,16
+5,6,5
+5,7,33
+5,8,2
+5,9,0
+5,10,6
+5,11,40
+5,12,6
+5,13,0
+6,1,56
+6,2,46
+6,3,58
+6,4,62
+6,5,66
+6,6,76
+6,7,90
+6,8,82
+6,9,80
+6,10,61
+6,11,60
+6,12,64
+6,13,69
+6,14,73
+6,15,84
+6,16,95
+6,17,93
+6,18,91
+6,19,89
+6,20,86
+6,21,84
+6,22,82
+6,23,76
+6,24,69
+6,25,62
+6,26,75
+6,27,70
+6,28,76
+6,29,67
+6,30,64
+6,31,64
+6,32,64
+6,33,84
+6,34,87
+6,35,83
+7,1,49
+7,2,57
+7,3,72
+7,4,68
+7,5,52
+7,6,59
+7,7,63
+7,8,67
+7,9,79
+7,10,87
+7,11,59
+7,12,85
+7,13,84
+7,14,71
+7,15,75
+7,16,70
+7,17,45
+7,18,39
+7,19,37
+7,20,35
+7,21,22
+7,22,27
+7,23,31
+7,24,23
+7,25,14
+7,26,19
+7,27,11
+7,28,8
+7,29,6
+7,30,0
+7,31,8
+7,32,0
+8,1,82
+8,2,80
+8,3,98
+8,4,87
+8,5,76
+8,6,72
+8,7,75
+8,8,80
+8,9,64
+8,10,92
+8,11,81
+8,12,97
+8,13,80
+8,14,92
+8,15,104
+8,16,69
+8,17,80
+8,18,74
+8,19,48
+8,20,30
+8,21,32
+8,22,14
+8,23,9
+8,24,5
+8,25,3
+8,26,5
+8,27,2
+8,28,1
+8,29,0
+9,1,109
+9,2,169
+9,3,138
+9,4,168
+9,5,175
+9,6,182
+9,7,168
+9,8,138
+9,9,146
+9,10,100
+9,11,131
+9,12,91
+9,13,127
+9,14,138
+9,15,129
+9,16,82
+9,17,146
+9,18,86
+9,19,82
+9,20,71
+9,21,65
+9,22,66
+9,23,69
+9,24,57
+9,25,62
+9,26,58
+9,27,53
+9,28,44
+9,29,54
+9,30,30
+9,31,54
+9,32,30
+9,33,31
+9,34,20
+9,35,21
+10,1,90
+10,2,77
+10,3,80
+10,4,140
+10,5,129
+10,6,130
+10,7,157
+10,8,150
+10,9,125
+10,10,148
+10,11,155
+10,12,152
+10,13,166
+10,14,161
+10,15,156
+10,16,146
+10,17,103
+10,18,113
+10,19,92
+10,20,81
+10,21,28
+10,22,24
+10,23,30
+10,24,26
+10,25,79
+10,26,40
+10,27,66
+10,28,38
+10,29,30
+10,30,55
+10,31,37
+10,32,35
+10,33,60
+10,34,17
+10,35,68
+11,1,138
+11,2,176
+11,3,275
+11,4,216
+11,5,145
+11,6,82
+11,7,78
+11,8,133
+11,9,176
+11,10,135
+11,11,153
+11,12,171
+11,13,161
+11,14,108
+11,15,124
+11,16,108
+11,17,91
+11,18,75
+11,19,94
+11,20,64
+11,21,51
+11,22,38
+11,23,36
+11,24,33
+11,25,25
+11,26,39
+11,27,19
+11,28,34
+11,29,48
+11,30,43
+11,31,51
+11,32,14
+11,33,52
+11,34,52
+11,35,61
+12,1,96
+12,2,67
+12,3,77
+12,4,71
+12,5,134
+12,6,51
+12,7,47
+12,8,54
+12,9,60
+12,10,105
+12,11,100
+12,12,70
+12,13,40
+12,14,36
+12,15,33
+12,16,29
+12,17,45
+12,18,60
+12,19,53
+12,20,45
+12,21,38
+12,22,30
+12,23,27
+12,24,24
+12,25,31
+12,26,28
+12,27,25
+12,28,6
+12,29,6
+12,30,7
+12,31,7
+12,32,7
+12,33,7
+12,34,13
+12,35,18
+13,1,100
+13,2,121
+13,3,131
+13,4,128
+13,5,143
+13,6,209
+13,7,192
+13,8,154
+13,9,139
+13,10,192
+13,11,180
+13,12,200
+13,13,213
+13,14,190
+13,15,175
+13,16,159
+13,17,143
+13,18,111
+13,19,115
+13,20,118
+13,21,104
+13,22,118
+13,23,92
+13,24,88
+13,25,59
+13,26,54
+13,27,79
+13,28,71
+13,29,87
+13,30,97
+13,31,87
+13,32,86
+13,33,58
+13,34,92
+13,35,83
+14,1,74
+14,2,86
+14,3,82
+14,4,86
+14,5,107
+14,6,79
+14,7,96
+14,8,107
+14,9,92
+14,10,97
+14,11,89
+14,12,98
+14,13,143
+14,14,160
+14,15,123
+14,16,126
+14,17,140
+14,18,160
+14,19,119
+14,20,77
+14,21,70
+14,22,60
+14,23,60
+14,24,60
+14,25,41
+14,26,50
+14,27,76
+14,28,50
+14,29,30
+14,30,23
+14,31,0
+14,32,0
+14,33,2
+14,34,25
+14,35,20
+15,1,65
+15,2,63
+15,3,66
+15,4,71
+15,5,105
+15,6,82
+15,7,131
+15,8,124
+15,9,121
+15,10,98
+15,11,135
+15,12,150
+15,13,174
+15,14,180
+15,15,190
+15,16,180
+15,17,104
+15,18,134
+15,19,153
+15,20,94
+15,21,95
+15,22,100
+15,23,61
+15,24,98
+15,25,90
+15,26,76
+15,27,63
+15,28,57
+15,29,62
+15,30,58
+15,31,60
+15,32,68
+15,33,88
+15,34,65
+15,35,69
+16,1,27
+16,2,52
+16,3,43
+16,4,55
+16,5,52
+16,6,66
+16,7,63
+16,8,72
+16,9,62
+16,10,73
+16,11,62
+16,12,62
+16,13,72
+16,14,62
+16,15,48
+16,16,44
+16,17,38
+16,18,31
+16,19,28
+16,20,24
+16,21,17
+16,22,15
+16,23,20
+16,24,18
+16,25,15
+16,26,22
+16,27,28
+16,28,22
+16,29,21
+16,30,13
+16,31,18
+16,32,18
+16,33,18
+16,34,23
+16,35,9
+17,1,49
+17,2,56
+17,3,67
+17,4,42
+17,5,52
+17,6,55
+17,7,74
+17,8,39
+17,9,74
+17,10,40
+17,11,56
+17,12,47
+17,13,35
+17,14,43
+17,15,68
+17,16,63
+17,17,57
+17,18,52
+17,19,46
+17,20,46
+17,21,46
+17,22,45
+17,23,45
+17,24,45
+17,25,45
+17,26,45
+17,27,45
+17,28,48
+17,29,48
+17,30,44
+17,31,38
+17,32,39
+17,33,42
+17,34,37
+17,35,43
+18,1,9
+18,2,21
+18,3,25
+18,4,8
+18,5,16
+18,6,5
+18,7,33
+18,8,2
+18,9,0
+18,10,0
+18,11,40
+18,12,6
+18,13,0
+19,1,9
+19,2,21
+19,3,25
+19,4,8
+19,5,16
+19,6,5
+19,7,33
+19,8,2
+19,9,0
+19,10,0
+19,11,40
+19,12,6
+19,13,0
+20,1,397
+20,2,447
+20,3,434
+20,4,421
+20,5,468
+20,6,514
+20,7,500
+20,8,465
+20,9,500
+20,10,538
+20,11,580
+20,12,556
+20,13,486
+20,14,482
+20,15,452
+20,16,335
+20,17,218
+20,18,221
+20,19,118
+20,20,171
+20,21,82
+20,22,202
+20,23,113
+20,24,131
+20,25,148
+20,26,148
+20,27,148
+20,28,131
+20,29,114
+20,30,114
+20,31,114
+20,32,101
+20,33,100
+20,34,120
+20,35,134
+21,1,174
+21,2,108
+21,3,127
+21,4,132
+21,5,176
+21,6,75
+21,7,82
+21,8,82
+21,9,100
+21,10,152
+21,11,138
+21,12,147
+21,13,121
+21,14,74
+21,15,54
+21,16,46
+21,17,37
+21,18,20
+21,19,22
+21,20,0
+22,1,106
+22,2,110
+22,3,82
+22,4,113
+22,5,148
+22,6,123
+22,7,240
+22,8,240
+22,9,240
+22,10,240
+22,11,167
+22,12,89
+22,13,4
+22,14,23
+22,15,19
+22,16,0
+22,17,0
+22,18,31
+22,19,0
+23,1,342
+23,2,388
+23,3,445
+23,4,365
+23,5,343
+23,6,300
+23,7,357
+23,8,344
+23,9,300
+23,10,346
+23,11,585
+23,12,495
+23,13,525
+23,14,410
+23,15,350
+23,16,359
+23,17,337
+23,18,314
+23,19,347
+23,20,258
+23,21,240
+23,22,260
+23,23,259
+23,24,260
+23,25,260
+23,26,260
+23,27,305
+23,28,260
+23,29,263
+23,30,218
+23,31,230
+23,32,212
+23,33,193
+23,34,268
+23,35,185
+24,1,68
+24,2,113
+24,3,90
+24,4,100
+24,5,84
+24,6,105
+24,7,125
+24,8,107
+24,9,75
+24,10,70
+24,11,74
+24,12,19
+24,13,25
+24,14,99
+24,15,50
+24,16,49
+24,17,47
+24,18,44
+24,19,51
+24,20,57
+24,21,66
+24,22,74
+24,23,91
+24,24,34
+24,25,30
+24,26,10
+24,27,26
+24,28,25
+24,29,0
+24,34,21
+24,35,21
+25,1,412
+25,2,407
+25,3,483
+25,4,493
+25,5,438
+25,6,263
+25,7,520
+25,8,506
+25,9,275
+25,10,322
+25,11,252
+25,12,257
+25,13,244
+25,14,323
+25,15,358
+25,16,292
+25,17,450
+25,18,350
+25,19,228
+25,20,154
+25,21,182
+25,22,150
+25,23,200
+25,24,164
+25,25,202
+25,26,280
+25,27,163
+25,28,205
+25,29,196
+25,30,165
+25,31,150
+25,32,165
+25,33,165
+25,34,109
+25,35,109
+26,1,299
+26,2,385
+26,3,408
+26,4,419
+26,5,485
+26,6,515
+26,7,548
+26,8,528
+26,9,557
+26,10,555
+26,11,622
+26,12,594
+26,13,519
+26,14,511
+26,15,420
+26,16,371
+26,17,434
+26,18,425
+26,19,302
+26,20,293
+26,21,330
+26,22,250
+26,23,256
+26,24,252
+26,25,250
+26,26,230
+26,27,230
+26,28,220
+26,29,200
+26,30,135
+26,31,150
+26,32,137
+26,33,170
+26,34,150
+26,35,175
+27,1,70
+27,2,66
+27,3,70
+27,4,85
+27,5,57
+27,6,57
+27,7,66
+27,8,46
+27,9,46
+27,10,42
+27,11,42
+27,12,36
+27,13,30
+27,14,39
+27,15,15
+27,16,16
+27,17,16
+27,18,17
+27,19,16
+27,20,14
+27,21,13
+27,22,10
+27,23,22
+27,24,7
+27,25,8
+27,26,9
+27,27,9
+27,28,11
+27,29,11
+27,30,7
+27,31,7
+27,32,0
+28,1,19
+28,2,27
+28,3,42
+28,4,6
+28,5,9
+28,6,2
+28,7,15
+28,8,3
+28,9,6
+28,10,6
+28,11,5
+28,12,1
+28,13,6
+28,14,2
+28,15,2
+28,16,2
+28,17,3
+28,18,3
+28,19,0
+29,1,55
+29,2,70
+29,3,39
+29,4,23
+29,5,25
+29,6,30
+29,7,8
+29,8,6
+29,9,6
+29,10,3
+29,11,0
+29,12,9
+29,13,0
+30,1,52
+30,2,60
+30,3,64
+30,4,51
+30,5,40
+30,6,34
+30,7,42
+30,8,37
+30,9,36
+30,10,43
+30,11,35
+30,12,26
+30,13,19
+30,14,23
+30,15,27
+30,16,17
+30,17,16
+30,18,16
+30,19,16
+30,20,15
+30,21,15
+30,22,14
+30,23,14
+30,24,13
+30,25,14
+30,26,11
+30,27,8
+30,28,6
+30,29,7
+30,30,7
+30,31,0
+31,1,60
+31,2,40
+31,3,47
+31,4,28
+31,5,31
+31,6,9
+31,7,0
+31,8,6
+31,9,22
+31,10,14
+31,11,0
+32,1,42
+32,2,42
+32,3,42
+32,4,42
+32,5,27
+32,6,26
+32,7,36
+32,8,29
+32,9,38
+32,10,41
+32,11,47
+32,12,44
+32,13,48
+32,14,50
+32,15,17
+32,16,40
+32,17,38
+32,18,35
+32,19,33
+32,20,30
+32,21,28
+32,22,25
+32,23,23
+32,24,20
+32,25,51
+32,26,33
+32,27,30
+32,28,52
+32,29,32
+32,30,47
+32,31,20
+32,32,39
+32,33,15
+32,34,26
+32,35,20
+33,1,7918
+33,2,8066
+33,3,8948
+33,4,8781
+33,5,11016
+33,6,9539
+33,7,10790
+33,8,9823
+33,9,8425
+33,10,10356
+33,11,9447
+33,12,10150
+33,13,8697
+33,14,9708
+33,15,9567
+33,16,8708
+33,17,8138
+33,18,7663
+33,19,9385
+33,20,9388
+33,21,9093
+33,22,7892
+33,23,9713
+33,24,9794
+33,25,8188
+33,26,8381
+33,27,10012
+33,28,9721
+33,29,8751
+33,30,9398
+33,31,8092
+33,32,7547
+33,33,7214
+33,34,7637
+33,35,7436
+34,1,31
+34,2,49
+34,3,79
+34,4,75
+34,5,66
+34,6,94
+34,7,89
+34,8,119
+34,9,79
+34,10,98
+34,11,99
+34,12,166
+34,13,148
+34,14,121
+34,15,125
+34,16,143
+34,17,112
+34,18,108
+34,19,106
+34,20,107
+34,21,106
+34,22,99
+34,23,105
+34,24,101
+34,25,70
+34,26,64
+34,27,70
+34,28,59
+34,29,100
+34,30,91
+34,31,70
+34,32,63
+34,33,78
+34,34,66
+34,35,54
+35,1,150
+35,2,190
+35,3,165
+35,4,163
+35,5,199
+35,6,209
+35,7,180
+35,8,329
+35,9,190
+35,10,196
+35,11,206
+35,12,238
+35,13,210
+35,14,206
+35,15,230
+35,16,255
+35,17,171
+35,18,215
+35,19,196
+35,20,171
+35,21,158
+35,22,200
+35,23,155
+35,24,173
+35,25,172
+35,26,140
+35,27,180
+35,28,168
+35,29,154
+35,30,160
+35,31,120
+35,32,150
+35,33,126
+35,34,150
+35,35,124
+36,1,110
+36,2,100
+36,3,200
+36,4,170
+36,5,162
+36,6,305
+36,7,160
+36,8,148
+36,9,160
+36,10,178
+36,11,196
+36,12,258
+36,13,196
+36,14,217
+36,15,215
+36,16,205
+36,17,232
+36,18,260
+36,19,208
+36,20,196
+36,21,193
+36,22,184
+36,23,176
+36,24,146
+36,25,240
+36,26,170
+36,27,118
+36,28,170
+36,29,137
+36,30,163
+36,31,130
+36,32,141
+36,33,150
+36,34,161
+36,35,131
+37,1,28
+37,2,17
+37,3,24
+37,4,20
+37,5,20
+37,6,42
+37,7,41
+37,8,36
+37,9,28
+37,10,23
+37,11,35
+37,12,21
+37,13,26
+37,14,22
+37,15,25
+37,16,24
+37,17,36
+37,18,36
+37,19,25
+37,20,21
+37,21,26
+37,22,18
+37,23,15
+37,24,24
+37,25,29
+37,26,46
+37,27,19
+37,28,23
+37,29,39
+37,30,34
+37,31,32
+37,32,35
+37,33,51
+37,34,38
+37,35,45
+38,1,60
+38,2,22
+38,3,31
+38,4,56
+38,5,46
+38,6,55
+38,7,55
+38,8,52
+38,9,36
+38,10,50
+38,11,43
+38,12,60
+38,13,34
+38,14,47
+38,15,52
+38,16,7
+38,17,49
+38,18,67
+38,19,32
+38,20,42
+38,21,38
+38,22,36
+38,23,38
+38,24,32
+38,25,23
+38,26,14
+38,27,33
+38,28,31
+38,29,36
+38,30,24
+38,31,19
+38,32,11
+38,33,15
+38,34,8
+38,35,11
+39,1,60
+39,2,46
+39,3,54
+39,4,57
+39,5,17
+39,6,73
+39,7,55
+39,8,75
+39,9,80
+39,10,109
+39,11,109
+39,12,110
+39,13,106
+39,14,130
+39,15,120
+39,16,102
+39,17,111
+39,18,108
+39,19,140
+39,20,107
+39,21,99
+39,22,144
+39,23,160
+39,24,127
+39,25,150
+39,26,123
+39,27,100
+39,28,102
+39,29,113
+39,30,151
+39,31,121
+39,32,100
+39,33,142
+39,34,125
+39,35,130
+40,1,47
+40,2,47
+40,3,47
+40,4,32
+40,5,30
+40,6,28
+40,7,26
+40,8,40
+40,9,33
+40,10,44
+40,11,27
+40,12,30
+40,13,9
+40,14,3
+40,15,5
+40,16,8
+40,17,10
+40,18,12
+40,19,20
+40,20,34
+40,21,30
+40,22,27
+40,23,20
+40,24,25
+40,25,28
+40,26,24
+40,27,26
+40,28,31
+40,29,27
+40,30,14
+40,31,16
+40,32,14
+40,33,10
+40,34,7
+40,35,7
+41,1,33
+41,2,70
+41,3,30
+41,4,49
+41,5,70
+41,6,60
+41,7,37
+41,8,39
+41,9,48
+41,10,47
+41,11,65
+41,12,73
+41,13,70
+41,14,40
+41,15,23
+41,16,17
+41,17,65
+41,18,50
+41,19,28
+41,20,59
+41,21,62
+41,22,35
+41,23,48
+41,24,38
+41,25,36
+41,26,28
+41,27,24
+41,28,21
+41,29,17
+41,30,20
+41,31,9
+41,32,12
+41,33,19
+41,34,8
+41,35,0
+42,1,29
+42,2,28
+42,3,35
+42,4,51
+42,5,79
+42,6,60
+42,7,60
+42,8,46
+42,9,50
+42,10,48
+42,11,50
+42,12,52
+42,13,40
+42,14,42
+42,15,56
+42,16,40
+42,17,42
+42,18,43
+42,19,43
+42,20,40
+42,21,37
+42,22,35
+42,23,37
+42,24,37
+42,25,32
+42,26,35
+42,27,34
+42,28,32
+42,29,24
+42,30,28
+42,31,31
+42,32,49
+42,33,62
+42,34,64
+42,35,71
+43,1,750
+43,2,708
+43,3,760
+43,4,759
+43,5,728
+43,6,987
+43,7,941
+43,8,1101
+43,9,585
+43,10,470
+43,11,516
+43,12,1387
+43,13,1455
+43,14,1464
+43,15,1444
+43,16,1347
+43,17,1221
+43,18,1076
+43,19,1093
+43,20,954
+43,21,1133
+43,22,1112
+43,23,974
+43,24,803
+43,25,979
+43,26,861
+43,27,898
+43,28,948
+43,29,927
+43,30,739
+43,31,748
+43,32,855
+43,33,951
+43,34,830
+43,35,854
+44,1,441
+44,2,548
+44,3,405
+44,4,400
+44,5,647
+44,6,671
+44,7,792
+44,8,621
+44,9,551
+44,10,865
+44,11,1026
+44,12,962
+44,13,1047
+44,14,1052
+44,15,1122
+44,16,1014
+44,17,721
+44,18,705
+44,19,611
+44,20,495
+44,21,814
+44,22,745
+44,23,687
+44,24,445
+44,25,336
+44,26,392
+44,27,301
+44,28,319
+44,29,256
+44,30,302
+44,31,243
+44,32,159
+44,33,267
+44,34,185
+44,35,172
+45,1,48
+45,2,51
+45,3,81
+45,4,47
+45,5,55
+45,6,48
+45,7,57
+45,8,44
+45,9,41
+45,10,53
+45,11,68
+45,12,39
+45,13,57
+45,14,22
+45,15,35
+45,16,52
+45,17,36
+45,18,45
+45,19,33
+45,20,41
+45,21,50
+45,22,53
+45,23,40
+45,24,46
+45,25,32
+45,26,31
+45,27,32
+45,28,20
+45,29,25
+45,30,33
+45,31,33
+45,32,15
+45,33,25
+45,34,41
+45,35,30
+46,1,21
+46,2,28
+46,3,28
+46,4,25
+46,5,31
+46,6,57
+46,7,34
+46,8,31
+46,9,41
+46,10,41
+46,11,38
+46,12,51
+46,13,40
+46,14,34
+46,15,40
+46,16,0
+46,17,0
+46,18,26
+46,19,33
+46,20,40
+46,21,21
+46,22,1
+46,23,0
+46,24,0
+46,25,7
+46,26,7
+46,27,0
+46,28,0
+46,29,0
+46,30,4
+46,31,3
+46,32,2
+46,33,2
+46,34,1
+46,35,1
+47,1,66
+47,2,78
+47,3,128
+47,4,127
+47,5,165
+47,6,120
+47,7,262
+47,8,210
+47,9,195
+47,10,150
+47,11,185
+47,12,206
+47,13,169
+47,14,288
+47,15,128
+47,16,204
+47,17,128
+47,18,144
+47,19,178
+47,20,131
+47,21,94
+47,22,120
+47,23,102
+47,24,110
+47,25,87
+47,26,133
+47,27,98
+47,28,88
+47,29,94
+47,30,99
+47,31,74
+47,32,73
+47,33,99
+47,34,102
+47,35,101
+48,1,5358
+48,2,6393
+48,3,6468
+48,4,7888
+48,5,7588
+48,6,8560
+48,7,8857
+48,8,10676
+48,9,11004
+48,10,11679
+48,11,12420
+48,12,15358
+48,13,13684
+48,14,15111
+48,15,15408
+48,16,14474
+48,17,13084
+48,18,11854
+48,19,12253
+48,20,11272
+48,21,8350
+48,22,7456
+48,23,7309
+48,24,7086
+48,25,8590
+48,26,7079
+48,27,8027
+48,28,4670
+48,29,5449
+48,30,5955
+48,31,4772
+48,32,5183
+48,33,6141
+48,34,5319
+48,35,6771
+49,1,36
+49,2,34
+49,3,84
+49,4,68
+49,5,52
+49,6,36
+49,7,25
+49,8,23
+49,9,20
+49,10,41
+49,11,35
+49,12,29
+49,13,24
+49,14,18
+49,15,12
+49,16,6
+49,17,11
+49,18,9
+49,19,9
+49,20,9
+49,21,5
+49,22,0
+49,23,16
+49,24,0
+49,25,0
+49,26,11
+49,27,14
+49,28,32
+49,29,10
+49,30,12
+49,31,5
+49,32,4
+49,33,2
+49,34,4
+49,35,0
+50,1,87
+50,2,110
+50,3,136
+50,4,197
+50,5,200
+50,6,224
+50,7,245
+50,8,362
+50,9,288
+50,10,256
+50,11,375
+50,12,414
+50,13,333
+50,14,441
+50,15,425
+50,16,301
+50,17,452
+50,18,403
+50,19,411
+50,20,377
+50,21,338
+50,22,344
+50,23,300
+50,24,221
+50,25,239
+50,26,240
+50,27,259
+50,28,231
+50,29,219
+50,30,201
+50,31,217
+50,32,204
+50,33,233
+50,34,177
+50,35,234
+51,1,50
+51,2,51
+51,3,80
+51,4,76
+51,5,60
+51,6,58
+51,7,60
+51,8,40
+51,9,28
+51,10,27
+51,11,28
+51,12,45
+51,13,48
+51,14,28
+51,15,38
+51,16,33
+51,17,23
+51,18,29
+51,19,29
+51,20,23
+51,21,27
+51,22,31
+51,23,27
+51,24,25
+51,25,19
+51,26,18
+51,27,19
+51,28,11
+51,29,16
+51,30,11
+51,31,12
+51,32,8
+51,33,6
+51,34,2
+51,35,3
+52,1,83
+52,2,82
+52,3,80
+52,4,100
+52,5,111
+52,6,123
+52,7,134
+52,8,146
+52,9,157
+52,10,168
+52,11,180
+52,12,191
+52,13,184
+52,14,203
+52,15,206
+52,16,192
+52,17,366
+52,18,100
+52,19,250
+52,20,215
+52,21,228
+52,22,193
+52,23,186
+52,24,181
+52,25,170
+52,26,154
+52,27,359
+52,28,198
+52,29,176
+52,30,163
+52,31,66
+52,32,143
+52,33,155
+52,34,0
+52,35,113
+53,1,855
+53,2,852
+53,3,771
+53,4,1005
+53,5,1116
+53,6,914
+53,7,797
+53,8,1499
+53,9,993
+53,10,1038
+53,11,1361
+53,12,1360
+53,13,1272
+53,14,1193
+53,15,1532
+53,16,1585
+53,17,1551
+53,18,1594
+53,19,1450
+53,20,1156
+53,21,894
+53,22,955
+53,23,940
+53,24,852
+53,25,879
+53,26,761
+53,27,961
+53,28,1035
+53,29,851
+53,30,833
+53,31,785
+53,32,604
+53,33,677
+53,34,860
+53,35,498
+54,1,600
+54,2,590
+54,3,716
+54,4,944
+54,5,907
+54,6,1005
+54,7,1240
+54,8,1023
+54,9,1110
+54,10,1180
+54,11,1044
+54,12,1339
+54,13,1629
+54,14,931
+54,15,1579
+54,16,1322
+54,17,1386
+54,18,1448
+54,19,1501
+54,20,1377
+54,21,1407
+54,22,1433
+54,23,1716
+54,24,1451
+54,25,1477
+54,26,1363
+54,27,1866
+54,28,1515
+54,29,1778
+54,30,1617
+54,31,1490
+54,32,1621
+54,33,1446
+54,34,1486
+54,35,1907
+55,1,122
+55,2,300
+55,3,234
+55,4,240
+55,5,300
+55,6,300
+55,7,350
+55,8,350
+55,9,250
+55,10,250
+55,11,230
+55,12,230
+55,13,245
+55,14,261
+55,15,306
+55,16,200
+55,17,200
+55,18,294
+55,19,450
+55,20,260
+55,21,240
+55,22,210
+55,23,210
+55,24,223
+55,25,220
+55,26,200
+55,27,210
+55,28,194
+55,29,212
+55,30,237
+55,31,250
+55,32,251
+55,33,300
+55,34,168
+55,35,200
+56,1,49
+56,2,145
+56,3,140
+56,4,150
+56,5,140
+56,6,130
+56,7,160
+56,8,250
+56,9,130
+56,10,213
+56,11,226
+56,12,210
+56,13,218
+56,14,223
+56,15,273
+56,16,192
+56,17,200
+56,18,200
+56,19,186
+56,20,183
+56,21,206
+56,22,190
+56,23,209
+56,24,240
+56,25,210
+56,26,210
+56,27,230
+56,28,190
+56,29,165
+56,30,190
+56,31,160
+56,32,180
+56,33,130
+56,34,190
+56,35,130
+57,1,435
+57,2,530
+57,3,740
+57,4,700
+57,5,650
+57,6,770
+57,7,620
+57,8,650
+57,9,550
+57,10,552
+57,11,565
+57,12,550
+57,13,535
+57,14,680
+57,15,450
+57,16,440
+57,17,550
+57,18,500
+57,19,369
+57,20,281
+57,21,257
+57,22,282
+57,23,168
+57,24,247
+57,25,273
+57,26,254
+57,27,470
+57,28,244
+57,29,188
+57,30,191
+57,31,206
+57,32,231
+57,33,279
+57,34,205
+57,35,180
+58,1,285
+58,2,334
+58,3,350
+58,4,353
+58,5,342
+58,6,331
+58,7,306
+58,8,382
+58,9,323
+58,10,325
+58,11,293
+58,12,360
+58,13,318
+58,14,450
+58,15,357
+58,16,330
+58,17,325
+58,18,338
+58,19,275
+58,20,300
+58,21,215
+58,22,220
+58,23,206
+58,24,177
+58,25,194
+58,26,190
+58,27,203
+58,28,190
+58,29,164
+58,30,144
+58,31,163
+58,32,165
+58,33,174
+58,34,148
+58,35,161
+59,1,89
+59,2,109
+59,3,95
+59,4,127
+59,5,124
+59,6,131
+59,7,152
+59,8,143
+59,9,134
+59,10,160
+59,11,155
+59,12,142
+59,13,125
+59,14,106
+59,15,167
+59,16,112
+59,17,134
+59,18,97
+59,19,126
+59,20,116
+59,21,92
+59,22,102
+59,23,90
+59,24,76
+59,25,61
+59,26,59
+59,27,63
+59,28,48
+59,29,55
+59,30,37
+59,31,29
+59,32,23
+59,33,22
+59,34,24
+59,35,17
