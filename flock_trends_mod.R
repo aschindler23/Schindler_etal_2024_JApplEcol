@@ -11,35 +11,35 @@ count <- read.csv("flock_counts.csv")
 
 # initial values for population size
 N_init <- count %>% 
-  select(year2, flock2, count) %>% 
-  pivot_wider(names_from = year2, values_from = count, 
+  select(year, flock, count) %>% 
+  pivot_wider(names_from = year, values_from = count, 
               names_prefix = "y") %>% 
   mutate_all(~replace_na(.,0)) %>% 
-  select(-flock2)
+  select(-flock)
 
 # initial values for mean population size
 alpha_init <- count %>% 
-  group_by(flock2) %>% 
+  group_by(flock) %>% 
   summarise(mean_count = mean(count)) %>% 
   ungroup() %>% 
   mutate(log_mean_count = log(mean_count)) %>% 
-  arrange(flock2) %>% 
+  arrange(flock) %>% 
   pull(log_mean_count)
 
 ### indexing
 # number of flocks
-nflocks <- length(unique(count$flock2))
+nflocks <- length(unique(count$flock))
 
 # number of years
-nyears <- length(unique(count$year2))
+nyears <- length(unique(count$year))
 
 # max year
 max_years <- count %>% 
-  select(flock2, year2) %>% 
-  group_by(flock2) %>% 
-  summarise(max_year = max(year2)) %>% 
+  select(flock, year) %>% 
+  group_by(flock) %>% 
+  summarise(max_year = max(year)) %>% 
   ungroup() %>% 
-  arrange(flock2) %>% 
+  arrange(flock) %>% 
   pull(max_year)
 
 # center study years around 0
@@ -85,8 +85,8 @@ trend_model <- nimbleCode({
 # set constants
 nimble_constants <- list(max_years = max_years,
                          nflocks = nflocks,
-                         flock = count$flock2,
-                         year = count$year2,
+                         flock = count$flock,
+                         year = count$year,
                          ncount = nrow(count))
 
 # set data
