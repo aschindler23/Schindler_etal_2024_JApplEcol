@@ -20,7 +20,7 @@ nyears <- length(unique(count$year))
 K <- 2
 # K <- 3
 
-# load trend model results
+### load trend model results
 load("flock_trends_mod.RData")
 
 # format samples into matrix and thin
