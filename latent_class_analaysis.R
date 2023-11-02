@@ -1,7 +1,5 @@
 
-library(dplyr)
-library(tidyr)
-library(stringr)
+library(tidyverse)
 library(nimble)
 library(parallel)
 library(coda)
