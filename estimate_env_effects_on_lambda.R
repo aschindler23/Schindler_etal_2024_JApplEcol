@@ -197,9 +197,7 @@ nc <- 3
 # set up cluster
 cl <- makeCluster(nc)
 
-clusterExport(cl, c("reg_model", "nimble_data", "nimble_constants", "inits", 
-                    "getMCMCstate", "getModelState", "getStateVariableNames",
-                    "getWAICstate", "setMCMCstate", "setModelState", "setWAICstate"))
+clusterExport(cl, c("env_model", "nimble_data", "nimble_constants"))
 
 for (j in seq_along(cl)) {
   nimble_inits <- inits_function() 
@@ -214,7 +212,7 @@ out <- clusterEvalQ(cl, {
   library(parallel)
   
   # build model
-  model <- nimbleModel(code = reg_model, constants = nimble_constants,  dat =  nimble_data, inits = nimble_inits)
+  model <- nimbleModel(code = env_model, constants = nimble_constants,  dat =  nimble_data, inits = nimble_inits)
   
   # initialize remaining parameters
   model$initializeInfo()
