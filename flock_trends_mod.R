@@ -12,10 +12,10 @@ count <- read.csv("flock_counts.csv")
 # initial values for population size
 N_init <- count %>% 
   select(year, flock, count) %>% 
-  pivot_wider(names_from = year, values_from = count, 
-              names_prefix = "y") %>% 
+  pivot_wider(names_from = year, values_from = count,) %>% 
   mutate_all(~replace_na(.,0)) %>% 
-  select(-flock)
+  column_to_rownames(var = "flock") %>% 
+  as.matrix()
 
 # initial values for mean population size
 alpha_init <- count %>% 
@@ -98,8 +98,8 @@ inits_function <- function(){
     log_N_tau = 1,
     alpha = alpha_init,
     beta_trend = rnorm(nflocks, 0, 1),
-    N = as.matrix(N_init),
-    log_N = as.matrix(log(N_init + 0.001)),
+    N = N_init,
+    log_N = log(N_init + 0.001),
     log_N_mu = matrix(rep(alpha_init, nyears), nflocks, nyears)
   )
 }
