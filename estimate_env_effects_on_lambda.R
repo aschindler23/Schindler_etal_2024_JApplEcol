@@ -85,7 +85,7 @@ K <- 2
 # setwd("C:/Users/gth492/OneDrive - University of Saskatchewan/Flock count analysis/LCA model/trend model approach/LCA only")
 Z <- read.csv("LCA_K2_assignments.csv")
 Z <- Z %>% 
-  mutate(Z = if_else(class == "K1", 1, 2)) %>% 
+  mutate(Z = as.numeric(str_remove(class, "K"))) %>% 
   select(flock, Z) %>% 
   arrange(flock)
 
@@ -148,7 +148,7 @@ env_model <- nimbleCode({
   # observation model for count data
   for(n in 1:ncount){ # loop over count data
     y[n] ~ dpois(N[flock[n], year[n]]) 
-  }
+  } # n
 })
 
 # set constants
@@ -159,6 +159,7 @@ nimble_constants <- list(N1 = N_init[,1],
                          year = count$year,
                          ncount = nrow(count),
                          K = K, 
+                         nenv = nenv,
                          Z = Z$Z
                     )
 
@@ -243,7 +244,7 @@ stopCluster(cl)
 
 # save output
 file_heading <- paste0("env_K", K, "_")
-save(out, file = paste0(file_heading, "_results.RData"))
+save(out, file = paste0(file_heading, "results.RData"))
 
 # convert to MCMC list
 samples <- list(chain1 = out[[1]], 
@@ -253,7 +254,7 @@ samples <- list(chain1 = out[[1]],
 mcmc_list <- as.mcmc.list(lapply(samples, mcmc))
 
 # traceplots
-MCMCtrace(mcmc_list, type = "trace", filename = paste0(file_heading, "_traceplots.pdf"))
+MCMCtrace(mcmc_list, type = "trace", filename = paste0(file_heading, "traceplots.pdf"))
 
 # assess convergence
 rhat <- gelman.diag(mcmc_list, multivariate = F)
@@ -262,4 +263,4 @@ rhat[which(rhat[,1] > 1.1), ]
 
 # summary statistics
 sum_stats <- MCMCsummary(mcmc_list)
-write.csv(sum_stats, paste0(file_heading, "_summary.csv"))
+write.csv(sum_stats, paste0(file_heading, "summary.csv"))
