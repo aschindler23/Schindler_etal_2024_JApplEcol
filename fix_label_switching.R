@@ -1,11 +1,10 @@
-library(dplyr)
-library(tidyr)
+
+library(tidyverse)
 library(nimble)
 library(parallel)
 library(coda)
-library(label.switching)
-library(stringr)
 library(MCMCvis)
+library(label.switching)
 
 ### load and format results
 load("LCA_K2_results.RData")
@@ -84,10 +83,10 @@ mcmc_list <- as.mcmc.list(lapply(samples, mcmc))
 
 # save results
 file_heading <- paste0("LCA_K", K, "_")
-save(mcmc_list, file = paste0(file_heading, "_results_corrected.RData"))
+save(mcmc_list, file = paste0(file_heading, "results_corrected.RData"))
 
 # corrected traceplots
-MCMCtrace(mcmc_list, type = "trace", filename = paste0(file_heading, "_traceplots_corrected.pdf"))
+MCMCtrace(mcmc_list, type = "trace", filename = paste0(file_heading, "traceplots_corrected.pdf"))
 
 # assess convergence
 rhat <- gelman.diag(mcmc_list, multivariate = F)
@@ -98,7 +97,7 @@ colnames(rhat) <- c("Rhat", "Rhat_UCI")
 
 # summary statistics
 sum_stats <- MCMCsummary(mcmc_list)
-write.csv(sum_stats, paste0(file_heading, "_summary.csv"))
+write.csv(sum_stats, paste0(file_heading, "summary.csv"))
 
 # calculate and save class assignments
 calc_prop_Z <- function(x, r, K, n){
@@ -116,4 +115,4 @@ Z_prop <- lapply(1:ncol(Z), calc_prop_Z, x = Z_reorder, K = K, n = nMCMC)
 Z_prop <- bind_rows(Z_prop) 
 Z_prop$class <- colnames(Z_prop)[max.col(Z_prop[1:K])]
 table(Z_prop$class)
-write.csv(Z_prop, paste0(file_heading, "_assignments.csv"))
+write.csv(Z_prop, paste0(file_heading, "assignments.csv"))
