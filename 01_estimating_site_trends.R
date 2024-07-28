@@ -203,7 +203,7 @@ prob_above_below_0 <- function(x){
   }
 }
 
-# caculate summary statistics
+# calculate summary statistics
 sum_stats <- MCMCsummary(mcmc_list, func = function(x) prob_above_below_0(x), func_name = "f")
 
 # save summary statistics
