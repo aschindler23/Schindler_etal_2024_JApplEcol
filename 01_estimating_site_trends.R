@@ -4,50 +4,46 @@ library(nimble)
 library(parallel)
 library(coda)
 library(MCMCvis)
-setwd("C:/Users/gth492/OneDrive - University of Saskatchewan/Nimble resources")
-source("nimble_restart_functions.R")
-
-setwd("C:/Users/gth492/OneDrive - University of Saskatchewan/Flock count analysis/revised analysis 070424")
 
 ### load and process data
-count <- read.csv("data/count_data.csv")
+count <- read.csv("count_data.csv")
 
 # initial values for population size
 N_init <- count %>%
-  group_by(flock_id) %>% 
+  group_by(site_id) %>% 
   mutate(count = round(zoo::na.approx(count, na.rm = F))) %>% 
   mutate(count = zoo::na.locf(count, fromLast = T, na.rm = F)) %>% 
   ungroup() %>% 
   mutate(count = replace_na(count, 0)) %>% 
-  select(year_id, flock_id, count) %>% 
+  select(year_id, site_id, count) %>% 
   pivot_wider(names_from = year_id, values_from = count, 
               names_prefix = "y")
 N_init <- N_init[,-1] + 0.001
 
 # initial values for mean population size (log scale)
 alpha_init <- count %>% 
-  group_by(flock_id) %>% 
+  group_by(site_id) %>% 
   summarise(mean_count = mean(count, na.rm = T)) %>%
   ungroup() %>% 
   mutate(log_mean_count = log(mean_count)) %>% 
-  arrange(flock_id)
+  arrange(site_id)
 
 # drop NA counts to speed up MCMC sampling
 count <- count %>%
   drop_na() %>%
-  arrange(flock_id, year_id)
+  arrange(site_id, year_id)
 
 ### indexing
 # maximum years
 max_years <- count %>% 
-  select(flock_id, year_id) %>% 
-  group_by(flock_id) %>% 
+  select(site_id, year_id) %>% 
+  group_by(site_id) %>% 
   summarise(max_year = max(year_id)) %>% 
   ungroup() %>% 
-  arrange(flock_id)
+  arrange(site_id)
 
-# number of flocks
-nflocks <- length(unique(count$flock_id))
+# number of sites
+nsites <- length(unique(count$site_id))
 
 # number of years
 nyears <- length(unique(count$year_id))
@@ -61,12 +57,12 @@ trend_model <- nimbleCode({
   # priors and linear models
   #===========================
   
-  for(f in 1:nflocks){ # loop over flocks
-    # flock-year random intercept
-    alpha[f] ~ dnorm(0, sd = 10)
+  for(i in 1:nsites){ # loop over sites
+    # site-year random intercept
+    alpha[i] ~ dnorm(0, sd = 10)
     
-    # flock-specific trend in abundance
-    beta_trend[f] ~ dnorm(0, sd = 10)
+    # site-specific trend in abundance
+    beta_trend[i] ~ dnorm(0, sd = 10)
   } # f
   
   # process variance
@@ -77,24 +73,24 @@ trend_model <- nimbleCode({
   #===========================
   
   # process model for true abundance
-  for(f in 1:nflocks){ # loop over flocks
-    for(t in 1:(max_years[f])){ # loop over years
-      log_N[f, t] ~ dnorm(log_N_mu[f, t], log_N_tau)
-      log_N_mu[f, t] <- alpha[f] + beta_trend[f] * year_cov[t]
-      N[f, t] <- exp(log_N[f, t])
+  for(i in 1:nsites){ # loop over sites
+    for(t in 1:(max_years[i])){ # loop over years
+      log_N[i, t] ~ dnorm(log_N_mu[i, t], log_N_tau)
+      log_N_mu[i, t] <- alpha[i] + beta_trend[i] * year_cov[t]
+      N[i, t] <- exp(log_N[i, t])
     } # t
   } # f
   
   # observation model for count data
   for(n in 1:ncount){ # loop over count data
-    y[n] ~ dpois(N[flock[n], year[n]]) 
+    y[n] ~ dpois(N[site[n], year[n]]) 
   } # n
 })
 
 # set constants
 nimble_constants <- list(max_years = max_years$max_year,
-                         nflocks = nflocks,
-                         flock = count$flock_id,
+                         nsites = nsites,
+                         site = count$site_id,
                          year = count$year_id,
                          ncount = nrow(count))
 
@@ -106,7 +102,7 @@ inits_function <- function(){
   list(
     log_N_tau = 1,
     alpha = alpha_init$log_mean_count,
-    beta_trend = rnorm(nflocks, 0, 1),
+    beta_trend = rnorm(nsites, 0, 1),
     N = as.matrix(round(N_init)),
     log_N = as.matrix(log(N_init)),
     log_N_mu = as.matrix(log(N_init))
@@ -121,9 +117,7 @@ nc <- 3
 # set up cluster
 cl <- makeCluster(nc)
 
-clusterExport(cl, c("trend_model", "nimble_data", "nimble_constants", "inits", 
-                    "getMCMCstate", "getModelState", "getStateVariableNames",
-                    "getWAICstate", "setMCMCstate", "setModelState", "setWAICstate"))
+clusterExport(cl, c("trend_model", "nimble_data", "nimble_constants", "inits"))
 
 for (j in seq_along(cl)) {
   nimble_inits <- inits_function() 
@@ -164,18 +158,8 @@ out <- clusterEvalQ(cl, {
   # extract samples
   samples <- as.matrix(CmodelMCMC$mvSamples)
   
-  # extract model state and internal state of MCMC 
-  modelState <- getModelState(Cmodel)
-  mcmcState <- getMCMCstate(mcmc_Conf, CmodelMCMC)
-  
-  # extract R's random number seed
-  seed <- .Random.seed
-  
   return(list(
-    samples = samples,
-    modelState = modelState,
-    mcmcState = mcmcState,
-    seed = seed
+    samples = samples
   ))
 })
 end_time <- Sys.time()
@@ -183,7 +167,7 @@ end_time <- Sys.time()
 stopCluster(cl)
 
 # save output
-file_heading <- "flock_trends_linear_070424"
+file_heading <- "site_trends"
 save(out, file = paste0(file_heading, "_results.RData"))
 
 # convert to MCMC list
@@ -193,8 +177,8 @@ samples    <- list(chain1 = out[[1]][[1]],
 
 mcmc_list <- as.mcmc.list(lapply(samples, mcmc))
 
-for (i in 1:nc) {
-  mcmc_list[[i]] <- mcmc_list[[i]][ , which(is.na(colSums(mcmc_list[[i]])) == F)]
+for(c in 1:nc) {
+  mcmc_list[[c]] <- mcmc_list[[c]][ , which(is.na(colSums(mcmc_list[[c]])) == F)]
 }
 
 # assess convergence
