@@ -1,37 +1,37 @@
 
-library(dplyr)
-library(tidyr)
-library(stringr)
+library(tidyverse)
 library(nimble)
 library(parallel)
 library(coda)
 library(MCMCvis)
-# setwd("C:/Users/gth492/OneDrive - University of Saskatchewan/Nimble resources")
-source("nimble_restart_functions.R")
-
-# setwd("C:/Users/gth492/OneDrive - University of Saskatchewan/Flock count analysis/revised analysis 070424/data")
 
 ### load data
-flock_coord <- read.csv("roost_site_coordinates.csv")
+# site coordinates
+site_coord <- read.csv("roost_site_coordinates.csv")
+
+# count data
 count <- read.csv("count_data.csv")
 
-# scale flock coordinates
-flock_coord <- flock_coord %>% 
-  mutate(lat_scale = as.numeric(scale(lat)),
-         lon_scale = as.numeric(scale(lon)))
+# trend model results
+load("site_trends_results.RData")
+samples_mat <- as.matrix(rbind(out[[1]][[1]], out[[2]][[1]], out[[3]][[1]]))
+
+# thin trend model results
+samples_mat <- samples_mat[seq(1, 12000, by = 4),]
+
+# site trends
+beta_trend <- samples_mat[, str_detect(colnames(samples_mat), "beta_trend")]
 
 ### indexing
-# number of flocks
-nflocks <- length(unique(count$flock_id))
+# number of sites
+nsites <- length(unique(count$site_id))
 
 # number of groups/classes
-K <- 3
+K <- 2
+# K <- 3
 
-# load trend model
-load("flock_trends_linear_070424_results.RData")
-samples_mat <- as.matrix(rbind(out[[1]][[1]], out[[2]][[1]], out[[3]][[1]]))
-samples_mat <- samples_mat[seq(1, 12000, by = 4),]
-mu_lambda <- samples_mat[, str_detect(colnames(samples_mat), "beta_trend")]
+# number of posterior samples for the trend betas
+nsamp <- nrow(beta_trend)
 
 ### LCA model
 # specify model in BUGS language 
@@ -45,49 +45,48 @@ LCA_model <- nimbleCode({
     w_alpha[k] <- 1
     
     # LCA covariate means
-    class_mu_lambda[k] ~ dnorm(0, sd = 10)
+    class_mu_trend[k] ~ dnorm(0, sd = 10)
     class_mu_lat[k] ~ dnorm(0, sd = 10)
     class_mu_lon[k] ~ dnorm(0, sd = 10)
     
     # LCA covariate precision
-    class_sig_lambda[k] ~ dunif(0, 10)
+    class_sig_trend[k] ~ dunif(0, 10)
     class_sig_lat[k] ~ dunif(0, 10)
     class_sig_lon[k] ~ dunif(0, 10)
   } # k
   
-  for(f in 1:nflocks){ # loop over flocks
-    # latent class membership of each flock
-    Z[f] ~ dcat(w[1:K]) 
-    for(s in 1:nsim){
-      mu_lambda[s, f] ~ dnorm(class_mu_lambda[Z[f]], sd = class_sig_lambda[Z[f]]) 
+  for(i in 1:nsites){ # loop over sites
+    # latent class membership of each site
+    Z[i] ~ dcat(w[1:K]) 
+    for(s in 1:nsamp){ # loop over trend model posterior samples
+      beta_trend[s, i] ~ dnorm(class_mu_trend[Z[i]], sd = class_sig_trend[Z[i]]) 
     }
-    latitude[f] ~ dnorm(class_mu_lat[Z[f]], sd = class_sig_lat[Z[f]])
-    longitude[f] ~ dnorm(class_mu_lon[Z[f]], sd = class_sig_lon[Z[f]])
-  } # f
+    latitude[i] ~ dnorm(class_mu_lat[Z[i]], sd = class_sig_lat[Z[i]])
+    longitude[i] ~ dnorm(class_mu_lon[Z[i]], sd = class_sig_lon[Z[i]])
+  } # i
 })
 
 # set constants
-nimble_constants <- list(nflocks = nflocks,
-                         nsim = nrow(mu_lambda),
+nimble_constants <- list(nsites = nsites,
+                         nsamp = nsamp,
                          K = K)
 
 # set data
-nimble_data <- list(mu_lambda = mu_lambda, 
-                    latitude = flock_coord$lat_scale,
-                    longitude = flock_coord$lon_scale
+nimble_data <- list(beta_trend = beta_trend, 
+                    latitude = site_coord$lat_scale,
+                    longitude = site_coord$lon_scale
                     )
 
 # initial values
-Z_init <- sample(1:K, nflocks, replace = T)
 inits_function <- function(){
-  list(class_mu_lambda = rnorm(K, 0, 1),
-       class_sig_lambda = runif(K, 0.1, 10),
+  list(class_mu_trend = rnorm(K, 0, 1),
+       class_sig_trend = runif(K, 0.1, 10),
        class_mu_lat = rnorm(K, 0, 1),
        class_sig_lat = runif(K, 0.1, 10),
        class_mu_lon = rnorm(K, 0, 1),
        class_sig_lon = runif(K, 0.1, 10),
        w = c(rep(1/K, K)),
-       Z = Z_init
+       Z = sample(1:K, nsites, replace = T)
   )
 }
 
@@ -99,9 +98,7 @@ nc <- 3
 # set up cluster
 cl <- makeCluster(nc)
 
-clusterExport(cl, c("LCA_model", "nimble_data", "nimble_constants", "inits", 
-                    "getMCMCstate", "getModelState", "getStateVariableNames",
-                    "getWAICstate", "setMCMCstate", "setModelState", "setWAICstate"))
+clusterExport(cl, c("LCA_model", "nimble_data", "nimble_constants", "inits"))
 
 for (j in seq_along(cl)) {
   nimble_inits <- inits_function() 
@@ -143,18 +140,8 @@ out <- clusterEvalQ(cl, {
   # extract samples
   samples <- as.matrix(CmodelMCMC$mvSamples)
   
-  # extract model state and internal state of MCMC 
-  modelState <- getModelState(Cmodel)
-  mcmcState <- getMCMCstate(mcmc_Conf, CmodelMCMC)
-  
-  # extract R's random number seed
-  seed <- .Random.seed
-  
   return(list(
-    samples = samples,
-    modelState = modelState,
-    mcmcState = mcmcState,
-    seed = seed
+    samples = samples
   ))
 })
 end_time <- Sys.time()
@@ -162,7 +149,7 @@ end_time <- Sys.time()
 stopCluster(cl)
 
 # save output
-file_heading <- paste0("LCA_K", K, Sys.Date())
+file_heading <- paste0("LCA_K", K)
 save(out, file = paste0(file_heading, "_results.RData"))
 
 # convert to MCMC list

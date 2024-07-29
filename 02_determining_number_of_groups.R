@@ -1,36 +1,59 @@
-
-setwd("C:/Users/gth492/OneDrive - University of Saskatchewan/Flock count analysis/revised analysis 070424")
-
 library(tidyverse)
-library(factoextra)
 library(NbClust)
 
-# load trend results
-trend_sum <- read.csv("flock_trends_linear_070424_summary.csv") %>% 
+### load trend results
+# load results and select median trend estimates
+trend_sum <- read.csv("site_trends_summary.csv") %>% 
   select(X, X50.) %>% 
   filter(str_detect(X, "beta_trend")) %>% 
   rename(param = X, median_trend = X50.)
+
+# convert to a matrix
 trend_median <- as.matrix(select(trend_sum, median_trend))
 
-# composite of 23 different indices
-indices <- c("ball", "beale", "ch", "cindex", "db", "dindex", "duda", "dunn", "frey", "gamma", 
-             "gap", "gplus", "hartigan", "hubert", "kl", "mcclain", "pseudot2", "ptbiserial", "ratkowsky", "sdbw",
-             "sdindex", "silhouette", "tau")
-n.clust.results <- data.frame(method = indices, n.clust = NA)
+### compute 21 different indices
+# create vector of index names
+indices <- c("ball", "beale", "ch", "cindex", "db", 
+             "dindex", "duda", "dunn", "frey", "gamma", 
+             "gplus", "hartigan", "hubert", "kl", "mcclain", 
+             "ptbiserial", "ratkowsky", "sdbw", "sdindex", "silhouette", 
+             "tau")
+
+# create data frame
+n_clust_results <- data.frame(method = indices, n_clust = NA)
+
+
+# calculate indices and fill data frame with results
 seq <- 1:length(indices)
-seq <- seq[-c(6, 11, 14, 17)] # remove two graphical methods
-for (i in seq) {
-  n.clust.results[i,2] <- as.numeric(NbClust(data = trend_median, diss = NULL, distance = "euclidean", min.nc = 2, max.nc = 10, method = "kmeans", index = indices[i])$Best.nc[1])
+seq <- seq[-c(6, 13)] # remove two graphical methods
+for(i in 1:seq) {
+  n_clust_results[i, 2] <- as.numeric(NbClust(data = trend_median, 
+                                              diss = NULL, distance = "euclidean", 
+                                              min.nc = 2, max.nc = 10, 
+                                              method = "kmeans", 
+                                              index = indices[i])$Best.nc[1])
 }
 
 # plot graphical methods and interpret
-NbClust(data = trend_median, diss = NULL, distance = "euclidean", min.nc = 2, max.nc = 10, method = "kmeans", index = "hubert")
-n.clust.results[14, 2] <- 4
-NbClust(data = trend_median, diss = NULL, distance = "euclidean", min.nc = 2, max.nc = 10, method = "kmeans", index = "dindex")
-n.clust.results[6, 2] <- 3
-NbClust(data = trend_median, diss = NULL, distance = "euclidean", min.nc = 2, max.nc = 10, method = "kmeans", index = "gap")
+NbClust(data = trend_median, 
+        diss = NULL, 
+        distance = "euclidean", 
+        min.nc = 2, 
+        max.nc = 10, 
+        method = "kmeans", 
+        index = "dindex")
+n_clust_results[6, 2] <- 3
+
+NbClust(data = trend_median, 
+        diss = NULL, 
+        distance = "euclidean", 
+        min.nc = 2, 
+        max.nc = 10, 
+        method = "kmeans", 
+        index = "hubert")
+n_clust_results[13, 2] <- 4
+
 
 # generate table
-table(n.clust.results$n.clust)
-write.csv(n.clust.results, file = "Cluster Validity indices results.csv", row.names = F)
-write.csv(table(n.clust.results$n.clust), file = "Cluster Validity indices results2.csv", row.names = F)
+table(n_clust_results$n_clust)
+write.csv(n_clust_results, file = "Cluster Validity indices results.csv", row.names = F)

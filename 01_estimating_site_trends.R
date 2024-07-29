@@ -6,6 +6,7 @@ library(coda)
 library(MCMCvis)
 
 ### load and process data
+# count data
 count <- read.csv("count_data.csv")
 
 # initial values for population size
@@ -63,7 +64,7 @@ trend_model <- nimbleCode({
     
     # site-specific trend in abundance
     beta_trend[i] ~ dnorm(0, sd = 10)
-  } # f
+  } # i
   
   # process variance
   log_N_tau ~ dgamma(0.01, 0.01)
@@ -79,7 +80,7 @@ trend_model <- nimbleCode({
       log_N_mu[i, t] <- alpha[i] + beta_trend[i] * year_cov[t]
       N[i, t] <- exp(log_N[i, t])
     } # t
-  } # f
+  } # i
   
   # observation model for count data
   for(n in 1:ncount){ # loop over count data

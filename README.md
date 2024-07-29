@@ -28,11 +28,9 @@ ___
 ### Code files
 - `01_estimating_site_trends.R`: code for estimating abundance trends of individual Greenland white-fronted goose wintering sites
 - `02_determining_number_of_groups.R` : code for exploratory analysis to determine number of groups to use in the latent class analysis
-- `03_LCA_K2.R`: code for the latent class analysis to group wintering sites into 2 groups based on abundance trends and location (i.e., latitude and longitude) 
-- `03_LCA_K3.R`: code for the latent class analysis to group wintering sites into 3 groups based on abundance trends and location (i.e., latitude and longitude) 
+- `03_LCA.R`: code for the latent class analysis to group wintering sites into groups based on abundance trends and location (i.e., latitude and longitude) 
 - `04_fix_label_switching` : code to fix label-switching in LCA model results
-- `05_K2_ss_env.R`: code for estimating the effects of environmental variables on annual trends in abundance (2-group version)
-- `05_K3_ss_env.R`: code for estimating the effects of environmental variables on annual trends in abundance (3-group version)
+- `05_ss_env.R`: code for estimating the effects of environmental variables on annual trends in abundance
 
 ### Data files
 - `count_data.csv`: Greenland white-fronted goose wintering site count data
