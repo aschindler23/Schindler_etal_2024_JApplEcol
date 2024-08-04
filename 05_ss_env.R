@@ -163,23 +163,23 @@ ss_env_model <- nimbleCode({
   
   # process model for true abundance
   for(i in 1:nsites){ # loop over sites
-    for(t in 1:(max_years[i] - 1)){ # loop over years
-      log_N[i, t + 1] <- log_N[i, t] + log_lambda[i, t]
+    for(t in 2:(max_years[i])){ # loop over years
+      log_N[i, t] <- log_N[i, t - 1] + log_lambda[i, t]
       log_lambda[i, t] ~ dnorm(mu_lambda[i, t], sd = sig_lambda[i])
       mu_lambda[i, t] <- 
         alpha_lambda[Z[i]] + 
-        beta_density[i] * count[i, t] +
-        beta_env[1, Z[i]] * spring_storm_days[t + 1] + 
-        beta_env[2, Z[i]] * spring_precip[t + 1] + 
-        beta_env[3, Z[i]] * pre_breed_freeze[t + 1] +
-        beta_env[4, Z[i]] * post_breed_precip[t + 1] +
-        beta_env[5, Z[i]] * autumn_storm_days[t + 1] +
-        beta_env[6, Z[i]] * autumn_freeze[t + 1] +
-        beta_env[7, Z[i]] * grass[i, t + 1] + 
-        beta_env[8, Z[i]] * cereal[i, t + 1] + 
-        beta_env[9, Z[i]] * bog[i, t + 1] +
-        beta_env[10, Z[i]] * winter_GDD[i, t]
-      N[i, t + 1] <- exp(log_N[i, t + 1])
+        beta_density[i] * count[i, t - 1] +
+        beta_env[1, Z[i]] * spring_storm_days[t] + 
+        beta_env[2, Z[i]] * spring_precip[t] + 
+        beta_env[3, Z[i]] * pre_breed_freeze[t] +
+        beta_env[4, Z[i]] * post_breed_precip[t] +
+        beta_env[5, Z[i]] * autumn_storm_days[t] +
+        beta_env[6, Z[i]] * autumn_freeze[t] +
+        beta_env[7, Z[i]] * grass[i, t] + 
+        beta_env[8, Z[i]] * cereal[i, t] + 
+        beta_env[9, Z[i]] * bog[i, t] +
+        beta_env[10, Z[i]] * winter_GDD[i, t - 1]
+      N[i, t] <- exp(log_N[i, t])
     } # t
   } # i
   
