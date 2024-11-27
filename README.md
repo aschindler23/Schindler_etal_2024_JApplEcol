@@ -2,7 +2,7 @@
 
 This repository contains the data and code used in the following publication:  
 
-Schindler, A. R., A. D. Fox, C. K. Wikle, B. M. Ballard, A. J. Walsh, S. B. A. Kelly, M. D. Weegman. (2024). *Journal of Applied Ecology*.  
+Schindler, A. R., A. D. Fox, C. K. Wikle, B. M. Ballard, A. J. Walsh, S. B. A. Kelly, M. D. Weegman. (2024). *Journal of Applied Ecology*, 00, 1-12. https://doi.org/10.1111/1365-2664.14804.  
 
 Data DOI: https://doi.org/10.5061/dryad.6djh9w19m  
 Code DOI: https://doi.org/10.5281/zenodo.13126638  
